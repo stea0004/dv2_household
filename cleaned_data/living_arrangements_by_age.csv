@@ -1,0 +1,1141 @@
+census_year,age_group,age_order,household_type,family_type,living_arrangement,pct
+2006,0-4,1,Family households,Couple families with children,"Husband, wife or partner",0.0
+2006,0-4,1,Family households,Couple families with children,Child,85.0
+2006,0-4,1,Family households,Couple families with children,Other related individual,0.0
+2006,0-4,1,Family households,Couple families without children,"Husband, wife or partner",0.0
+2006,0-4,1,Family households,Couple families without children,Other related individual,0.0
+2006,0-4,1,Family households,One parent families,Male parent,0.0
+2006,0-4,1,Family households,One parent families,Female parent,0.0
+2006,0-4,1,Family households,One parent families,Child,14.9
+2006,0-4,1,Family households,One parent families,Other related individual,0.0
+2006,0-4,1,Family households,Other families,Related individual,0.0
+2006,0-4,1,Family households,Other families,Unrelated individual,0.0
+2006,0-4,1,Group households,,Group household member,0.0
+2006,0-4,1,Lone person households,,Male lone person,0.0
+2006,0-4,1,Lone person households,,Female lone person,0.0
+2006,0-4,1,Non-private dwelling,,Usual resident of a non-private dwelling,0.1
+2006,5-9,2,Family households,Couple families with children,"Husband, wife or partner",0.0
+2006,5-9,2,Family households,Couple families with children,Child,80.2
+2006,5-9,2,Family households,Couple families with children,Other related individual,0.0
+2006,5-9,2,Family households,Couple families without children,"Husband, wife or partner",0.0
+2006,5-9,2,Family households,Couple families without children,Other related individual,0.0
+2006,5-9,2,Family households,One parent families,Male parent,0.0
+2006,5-9,2,Family households,One parent families,Female parent,0.0
+2006,5-9,2,Family households,One parent families,Child,19.7
+2006,5-9,2,Family households,One parent families,Other related individual,0.0
+2006,5-9,2,Family households,Other families,Related individual,0.0
+2006,5-9,2,Family households,Other families,Unrelated individual,0.0
+2006,5-9,2,Group households,,Group household member,0.0
+2006,5-9,2,Lone person households,,Male lone person,0.0
+2006,5-9,2,Lone person households,,Female lone person,0.0
+2006,5-9,2,Non-private dwelling,,Usual resident of a non-private dwelling,0.1
+2006,10-14,3,Family households,Couple families with children,"Husband, wife or partner",0.0
+2006,10-14,3,Family households,Couple families with children,Child,76.6
+2006,10-14,3,Family households,Couple families with children,Other related individual,0.0
+2006,10-14,3,Family households,Couple families without children,"Husband, wife or partner",0.0
+2006,10-14,3,Family households,Couple families without children,Other related individual,0.0
+2006,10-14,3,Family households,One parent families,Male parent,0.0
+2006,10-14,3,Family households,One parent families,Female parent,0.0
+2006,10-14,3,Family households,One parent families,Child,22.8
+2006,10-14,3,Family households,One parent families,Other related individual,0.0
+2006,10-14,3,Family households,Other families,Related individual,0.0
+2006,10-14,3,Family households,Other families,Unrelated individual,0.0
+2006,10-14,3,Group households,,Group household member,0.0
+2006,10-14,3,Lone person households,,Male lone person,0.0
+2006,10-14,3,Lone person households,,Female lone person,0.0
+2006,10-14,3,Non-private dwelling,,Usual resident of a non-private dwelling,0.6
+2006,15-19,4,Family households,Couple families with children,"Husband, wife or partner",0.5
+2006,15-19,4,Family households,Couple families with children,Child,65.0
+2006,15-19,4,Family households,Couple families with children,Other related individual,0.8
+2006,15-19,4,Family households,Couple families without children,"Husband, wife or partner",1.6
+2006,15-19,4,Family households,Couple families without children,Other related individual,0.6
+2006,15-19,4,Family households,One parent families,Male parent,0.1
+2006,15-19,4,Family households,One parent families,Female parent,0.5
+2006,15-19,4,Family households,One parent families,Child,19.7
+2006,15-19,4,Family households,One parent families,Other related individual,0.6
+2006,15-19,4,Family households,Other families,Related individual,1.9
+2006,15-19,4,Family households,Other families,Unrelated individual,2.0
+2006,15-19,4,Group households,,Group household member,2.9
+2006,15-19,4,Lone person households,,Male lone person,0.6
+2006,15-19,4,Lone person households,,Female lone person,0.6
+2006,15-19,4,Non-private dwelling,,Usual resident of a non-private dwelling,2.5
+2006,20-24,5,Family households,Couple families with children,"Husband, wife or partner",6.1
+2006,20-24,5,Family households,Couple families with children,Child,33.9
+2006,20-24,5,Family households,Couple families with children,Other related individual,0.7
+2006,20-24,5,Family households,Couple families without children,"Husband, wife or partner",14.8
+2006,20-24,5,Family households,Couple families without children,Other related individual,0.7
+2006,20-24,5,Family households,One parent families,Male parent,0.2
+2006,20-24,5,Family households,One parent families,Female parent,2.7
+2006,20-24,5,Family households,One parent families,Child,10.1
+2006,20-24,5,Family households,One parent families,Other related individual,0.5
+2006,20-24,5,Family households,Other families,Related individual,4.1
+2006,20-24,5,Family households,Other families,Unrelated individual,3.6
+2006,20-24,5,Group households,,Group household member,14.1
+2006,20-24,5,Lone person households,,Male lone person,3.2
+2006,20-24,5,Lone person households,,Female lone person,2.8
+2006,20-24,5,Non-private dwelling,,Usual resident of a non-private dwelling,2.5
+2006,25-29,6,Family households,Couple families with children,"Husband, wife or partner",22.5
+2006,25-29,6,Family households,Couple families with children,Child,12.9
+2006,25-29,6,Family households,Couple families with children,Other related individual,0.5
+2006,25-29,6,Family households,Couple families without children,"Husband, wife or partner",28.4
+2006,25-29,6,Family households,Couple families without children,Other related individual,0.4
+2006,25-29,6,Family households,One parent families,Male parent,0.3
+2006,25-29,6,Family households,One parent families,Female parent,4.4
+2006,25-29,6,Family households,One parent families,Child,4.6
+2006,25-29,6,Family households,One parent families,Other related individual,0.3
+2006,25-29,6,Family households,Other families,Related individual,2.6
+2006,25-29,6,Family households,Other families,Unrelated individual,2.3
+2006,25-29,6,Group households,,Group household member,10.3
+2006,25-29,6,Lone person households,,Male lone person,5.2
+2006,25-29,6,Lone person households,,Female lone person,3.9
+2006,25-29,6,Non-private dwelling,,Usual resident of a non-private dwelling,1.4
+2006,30-34,7,Family households,Couple families with children,"Husband, wife or partner",47.2
+2006,30-34,7,Family households,Couple families with children,Child,5.0
+2006,30-34,7,Family households,Couple families with children,Other related individual,0.3
+2006,30-34,7,Family households,Couple families without children,"Husband, wife or partner",21.0
+2006,30-34,7,Family households,Couple families without children,Other related individual,0.2
+2006,30-34,7,Family households,One parent families,Male parent,0.6
+2006,30-34,7,Family households,One parent families,Female parent,5.7
+2006,30-34,7,Family households,One parent families,Child,2.4
+2006,30-34,7,Family households,One parent families,Other related individual,0.2
+2006,30-34,7,Family households,Other families,Related individual,1.2
+2006,30-34,7,Family households,Other families,Unrelated individual,1.2
+2006,30-34,7,Group households,,Group household member,4.8
+2006,30-34,7,Lone person households,,Male lone person,5.4
+2006,30-34,7,Lone person households,,Female lone person,3.8
+2006,30-34,7,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2006,35-39,8,Family households,Couple families with children,"Husband, wife or partner",61.3
+2006,35-39,8,Family households,Couple families with children,Child,2.6
+2006,35-39,8,Family households,Couple families with children,Other related individual,0.2
+2006,35-39,8,Family households,Couple families without children,"Husband, wife or partner",11.8
+2006,35-39,8,Family households,Couple families without children,Other related individual,0.1
+2006,35-39,8,Family households,One parent families,Male parent,1.0
+2006,35-39,8,Family households,One parent families,Female parent,7.1
+2006,35-39,8,Family households,One parent families,Child,1.8
+2006,35-39,8,Family households,One parent families,Other related individual,0.2
+2006,35-39,8,Family households,Other families,Related individual,0.7
+2006,35-39,8,Family households,Other families,Unrelated individual,0.8
+2006,35-39,8,Group households,,Group household member,2.7
+2006,35-39,8,Lone person households,,Male lone person,5.5
+2006,35-39,8,Lone person households,,Female lone person,3.2
+2006,35-39,8,Non-private dwelling,,Usual resident of a non-private dwelling,0.9
+2006,40-44,9,Family households,Couple families with children,"Husband, wife or partner",64.0
+2006,40-44,9,Family households,Couple families with children,Child,1.5
+2006,40-44,9,Family households,Couple families with children,Other related individual,0.2
+2006,40-44,9,Family households,Couple families without children,"Husband, wife or partner",10.0
+2006,40-44,9,Family households,Couple families without children,Other related individual,0.1
+2006,40-44,9,Family households,One parent families,Male parent,1.5
+2006,40-44,9,Family households,One parent families,Female parent,7.9
+2006,40-44,9,Family households,One parent families,Child,1.7
+2006,40-44,9,Family households,One parent families,Other related individual,0.2
+2006,40-44,9,Family households,Other families,Related individual,0.6
+2006,40-44,9,Family households,Other families,Unrelated individual,0.7
+2006,40-44,9,Group households,,Group household member,2.1
+2006,40-44,9,Lone person households,,Male lone person,5.6
+2006,40-44,9,Lone person households,,Female lone person,3.1
+2006,40-44,9,Non-private dwelling,,Usual resident of a non-private dwelling,0.8
+2006,45-49,10,Family households,Couple families with children,"Husband, wife or partner",58.8
+2006,45-49,10,Family households,Couple families with children,Child,0.9
+2006,45-49,10,Family households,Couple families with children,Other related individual,0.2
+2006,45-49,10,Family households,Couple families without children,"Husband, wife or partner",15.0
+2006,45-49,10,Family households,Couple families without children,Other related individual,0.1
+2006,45-49,10,Family households,One parent families,Male parent,1.9
+2006,45-49,10,Family households,One parent families,Female parent,7.5
+2006,45-49,10,Family households,One parent families,Child,1.6
+2006,45-49,10,Family households,One parent families,Other related individual,0.3
+2006,45-49,10,Family households,Other families,Related individual,0.6
+2006,45-49,10,Family households,Other families,Unrelated individual,0.6
+2006,45-49,10,Group households,,Group household member,2.0
+2006,45-49,10,Lone person households,,Male lone person,5.9
+2006,45-49,10,Lone person households,,Female lone person,3.9
+2006,45-49,10,Non-private dwelling,,Usual resident of a non-private dwelling,0.8
+2006,50-54,11,Family households,Couple families with children,"Husband, wife or partner",45.4
+2006,50-54,11,Family households,Couple families with children,Child,0.5
+2006,50-54,11,Family households,Couple families with children,Other related individual,0.3
+2006,50-54,11,Family households,Couple families without children,"Husband, wife or partner",28.5
+2006,50-54,11,Family households,Couple families without children,Other related individual,0.2
+2006,50-54,11,Family households,One parent families,Male parent,1.8
+2006,50-54,11,Family households,One parent families,Female parent,5.7
+2006,50-54,11,Family households,One parent families,Child,1.5
+2006,50-54,11,Family households,One parent families,Other related individual,0.4
+2006,50-54,11,Family households,Other families,Related individual,0.6
+2006,50-54,11,Family households,Other families,Unrelated individual,0.5
+2006,50-54,11,Group households,,Group household member,2.1
+2006,50-54,11,Lone person households,,Male lone person,6.2
+2006,50-54,11,Lone person households,,Female lone person,5.5
+2006,50-54,11,Non-private dwelling,,Usual resident of a non-private dwelling,0.8
+2006,55-59,12,Family households,Couple families with children,"Husband, wife or partner",28.6
+2006,55-59,12,Family households,Couple families with children,Child,0.2
+2006,55-59,12,Family households,Couple families with children,Other related individual,0.4
+2006,55-59,12,Family households,Couple families without children,"Husband, wife or partner",45.7
+2006,55-59,12,Family households,Couple families without children,Other related individual,0.2
+2006,55-59,12,Family households,One parent families,Male parent,1.3
+2006,55-59,12,Family households,One parent families,Female parent,3.8
+2006,55-59,12,Family households,One parent families,Child,1.2
+2006,55-59,12,Family households,One parent families,Other related individual,0.4
+2006,55-59,12,Family households,Other families,Related individual,0.7
+2006,55-59,12,Family households,Other families,Unrelated individual,0.4
+2006,55-59,12,Group households,,Group household member,2.1
+2006,55-59,12,Lone person households,,Male lone person,6.6
+2006,55-59,12,Lone person households,,Female lone person,7.5
+2006,55-59,12,Non-private dwelling,,Usual resident of a non-private dwelling,0.8
+2006,60-64,13,Family households,Couple families with children,"Husband, wife or partner",17.2
+2006,60-64,13,Family households,Couple families with children,Child,0.1
+2006,60-64,13,Family households,Couple families with children,Other related individual,0.7
+2006,60-64,13,Family households,Couple families without children,"Husband, wife or partner",56.2
+2006,60-64,13,Family households,Couple families without children,Other related individual,0.2
+2006,60-64,13,Family households,One parent families,Male parent,1.0
+2006,60-64,13,Family households,One parent families,Female parent,2.7
+2006,60-64,13,Family households,One parent families,Child,0.8
+2006,60-64,13,Family households,One parent families,Other related individual,0.5
+2006,60-64,13,Family households,Other families,Related individual,0.7
+2006,60-64,13,Family households,Other families,Unrelated individual,0.3
+2006,60-64,13,Group households,,Group household member,2.1
+2006,60-64,13,Lone person households,,Male lone person,7.0
+2006,60-64,13,Lone person households,,Female lone person,9.5
+2006,60-64,13,Non-private dwelling,,Usual resident of a non-private dwelling,0.9
+2006,65-69,14,Family households,Couple families with children,"Husband, wife or partner",11.3
+2006,65-69,14,Family households,Couple families with children,Child,0.0
+2006,65-69,14,Family households,Couple families with children,Other related individual,1.0
+2006,65-69,14,Family households,Couple families without children,"Husband, wife or partner",59.2
+2006,65-69,14,Family households,Couple families without children,Other related individual,0.3
+2006,65-69,14,Family households,One parent families,Male parent,0.8
+2006,65-69,14,Family households,One parent families,Female parent,2.6
+2006,65-69,14,Family households,One parent families,Child,0.4
+2006,65-69,14,Family households,One parent families,Other related individual,0.6
+2006,65-69,14,Family households,Other families,Related individual,0.9
+2006,65-69,14,Family households,Other families,Unrelated individual,0.3
+2006,65-69,14,Group households,,Group household member,2.0
+2006,65-69,14,Lone person households,,Male lone person,7.3
+2006,65-69,14,Lone person households,,Female lone person,12.1
+2006,65-69,14,Non-private dwelling,,Usual resident of a non-private dwelling,1.2
+2006,70-74,15,Family households,Couple families with children,"Husband, wife or partner",8.0
+2006,70-74,15,Family households,Couple families with children,Child,0.0
+2006,70-74,15,Family households,Couple families with children,Other related individual,1.4
+2006,70-74,15,Family households,Couple families without children,"Husband, wife or partner",56.8
+2006,70-74,15,Family households,Couple families without children,Other related individual,0.4
+2006,70-74,15,Family households,One parent families,Male parent,0.8
+2006,70-74,15,Family households,One parent families,Female parent,3.0
+2006,70-74,15,Family households,One parent families,Child,0.1
+2006,70-74,15,Family households,One parent families,Other related individual,0.7
+2006,70-74,15,Family households,Other families,Related individual,1.1
+2006,70-74,15,Family households,Other families,Unrelated individual,0.2
+2006,70-74,15,Group households,,Group household member,1.8
+2006,70-74,15,Lone person households,,Male lone person,7.6
+2006,70-74,15,Lone person households,,Female lone person,15.9
+2006,70-74,15,Non-private dwelling,,Usual resident of a non-private dwelling,2.1
+2006,75-79,16,Family households,Couple families with children,"Husband, wife or partner",5.6
+2006,75-79,16,Family households,Couple families with children,Child,0.0
+2006,75-79,16,Family households,Couple families with children,Other related individual,1.7
+2006,75-79,16,Family households,Couple families without children,"Husband, wife or partner",49.7
+2006,75-79,16,Family households,Couple families without children,Other related individual,0.7
+2006,75-79,16,Family households,One parent families,Male parent,0.8
+2006,75-79,16,Family households,One parent families,Female parent,3.7
+2006,75-79,16,Family households,One parent families,Child,0.0
+2006,75-79,16,Family households,One parent families,Other related individual,0.7
+2006,75-79,16,Family households,Other families,Related individual,1.2
+2006,75-79,16,Family households,Other families,Unrelated individual,0.2
+2006,75-79,16,Group households,,Group household member,1.5
+2006,75-79,16,Lone person households,,Male lone person,8.3
+2006,75-79,16,Lone person households,,Female lone person,21.4
+2006,75-79,16,Non-private dwelling,,Usual resident of a non-private dwelling,4.5
+2006,80-84,17,Family households,Couple families with children,"Husband, wife or partner",3.6
+2006,80-84,17,Family households,Couple families with children,Child,0.0
+2006,80-84,17,Family households,Couple families with children,Other related individual,1.9
+2006,80-84,17,Family households,Couple families without children,"Husband, wife or partner",38.2
+2006,80-84,17,Family households,Couple families without children,Other related individual,1.4
+2006,80-84,17,Family households,One parent families,Male parent,1.0
+2006,80-84,17,Family households,One parent families,Female parent,4.4
+2006,80-84,17,Family households,One parent families,Child,0.0
+2006,80-84,17,Family households,One parent families,Other related individual,0.8
+2006,80-84,17,Family households,Other families,Related individual,1.2
+2006,80-84,17,Family households,Other families,Unrelated individual,0.2
+2006,80-84,17,Group households,,Group household member,1.2
+2006,80-84,17,Lone person households,,Male lone person,8.8
+2006,80-84,17,Lone person households,,Female lone person,27.3
+2006,80-84,17,Non-private dwelling,,Usual resident of a non-private dwelling,10.1
+2006,85+,18,Family households,Couple families with children,"Husband, wife or partner",2.3
+2006,85+,18,Family households,Couple families with children,Child,0.0
+2006,85+,18,Family households,Couple families with children,Other related individual,2.1
+2006,85+,18,Family households,Couple families without children,"Husband, wife or partner",19.4
+2006,85+,18,Family households,Couple families without children,Other related individual,2.7
+2006,85+,18,Family households,One parent families,Male parent,1.2
+2006,85+,18,Family households,One parent families,Female parent,5.0
+2006,85+,18,Family households,One parent families,Child,0.0
+2006,85+,18,Family households,One parent families,Other related individual,0.8
+2006,85+,18,Family households,Other families,Related individual,1.1
+2006,85+,18,Family households,Other families,Unrelated individual,0.2
+2006,85+,18,Group households,,Group household member,1.0
+2006,85+,18,Lone person households,,Male lone person,8.1
+2006,85+,18,Lone person households,,Female lone person,27.0
+2006,85+,18,Non-private dwelling,,Usual resident of a non-private dwelling,29.0
+2006,Total,19,Family households,Couple families with children,"Husband, wife or partner",25.3
+2006,Total,19,Family households,Couple families with children,Child,24.6
+2006,Total,19,Family households,Couple families with children,Other related individual,0.5
+2006,Total,19,Family households,Couple families without children,"Husband, wife or partner",20.8
+2006,Total,19,Family households,Couple families without children,Other related individual,0.3
+2006,Total,19,Family households,One parent families,Male parent,0.8
+2006,Total,19,Family households,One parent families,Female parent,3.8
+2006,Total,19,Family households,One parent families,Child,7.0
+2006,Total,19,Family households,One parent families,Other related individual,0.3
+2006,Total,19,Family households,Other families,Related individual,1.0
+2006,Total,19,Family households,Other families,Unrelated individual,0.9
+2006,Total,19,Group households,,Group household member,3.2
+2006,Total,19,Lone person households,,Male lone person,4.4
+2006,Total,19,Lone person households,,Female lone person,5.3
+2006,Total,19,Non-private dwelling,,Usual resident of a non-private dwelling,1.8
+2011,0-4,1,Family households,Couple families with children,"Husband, wife or partner",0.0
+2011,0-4,1,Family households,Couple families with children,Child,85.3
+2011,0-4,1,Family households,Couple families with children,Other related individual,0.0
+2011,0-4,1,Family households,Couple families without children,"Husband, wife or partner",0.0
+2011,0-4,1,Family households,Couple families without children,Other related individual,0.0
+2011,0-4,1,Family households,One parent families,Male parent,0.0
+2011,0-4,1,Family households,One parent families,Female parent,0.0
+2011,0-4,1,Family households,One parent families,Child,14.5
+2011,0-4,1,Family households,One parent families,Other related individual,0.0
+2011,0-4,1,Family households,Other families,Related individual,0.0
+2011,0-4,1,Family households,Other families,Unrelated individual,0.0
+2011,0-4,1,Group households,,Group household member,0.0
+2011,0-4,1,Lone person households,,Male lone person,0.0
+2011,0-4,1,Lone person households,,Female lone person,0.0
+2011,0-4,1,Non-private dwelling,,Usual resident of a non-private dwelling,0.1
+2011,5-9,2,Family households,Couple families with children,"Husband, wife or partner",0.0
+2011,5-9,2,Family households,Couple families with children,Child,80.8
+2011,5-9,2,Family households,Couple families with children,Other related individual,0.0
+2011,5-9,2,Family households,Couple families without children,"Husband, wife or partner",0.0
+2011,5-9,2,Family households,Couple families without children,Other related individual,0.0
+2011,5-9,2,Family households,One parent families,Male parent,0.0
+2011,5-9,2,Family households,One parent families,Female parent,0.0
+2011,5-9,2,Family households,One parent families,Child,19.2
+2011,5-9,2,Family households,One parent families,Other related individual,0.0
+2011,5-9,2,Family households,Other families,Related individual,0.0
+2011,5-9,2,Family households,Other families,Unrelated individual,0.0
+2011,5-9,2,Group households,,Group household member,0.0
+2011,5-9,2,Lone person households,,Male lone person,0.0
+2011,5-9,2,Lone person households,,Female lone person,0.0
+2011,5-9,2,Non-private dwelling,,Usual resident of a non-private dwelling,0.1
+2011,10-14,3,Family households,Couple families with children,"Husband, wife or partner",0.0
+2011,10-14,3,Family households,Couple families with children,Child,76.8
+2011,10-14,3,Family households,Couple families with children,Other related individual,0.0
+2011,10-14,3,Family households,Couple families without children,"Husband, wife or partner",0.0
+2011,10-14,3,Family households,Couple families without children,Other related individual,0.0
+2011,10-14,3,Family households,One parent families,Male parent,0.0
+2011,10-14,3,Family households,One parent families,Female parent,0.0
+2011,10-14,3,Family households,One parent families,Child,22.7
+2011,10-14,3,Family households,One parent families,Other related individual,0.0
+2011,10-14,3,Family households,Other families,Related individual,0.0
+2011,10-14,3,Family households,Other families,Unrelated individual,0.0
+2011,10-14,3,Group households,,Group household member,0.0
+2011,10-14,3,Lone person households,,Male lone person,0.0
+2011,10-14,3,Lone person households,,Female lone person,0.0
+2011,10-14,3,Non-private dwelling,,Usual resident of a non-private dwelling,0.6
+2011,15-19,4,Family households,Couple families with children,"Husband, wife or partner",0.4
+2011,15-19,4,Family households,Couple families with children,Child,64.3
+2011,15-19,4,Family households,Couple families with children,Other related individual,0.9
+2011,15-19,4,Family households,Couple families without children,"Husband, wife or partner",1.4
+2011,15-19,4,Family households,Couple families without children,Other related individual,0.7
+2011,15-19,4,Family households,One parent families,Male parent,0.1
+2011,15-19,4,Family households,One parent families,Female parent,0.5
+2011,15-19,4,Family households,One parent families,Child,21.1
+2011,15-19,4,Family households,One parent families,Other related individual,0.7
+2011,15-19,4,Family households,Other families,Related individual,1.7
+2011,15-19,4,Family households,Other families,Unrelated individual,2.2
+2011,15-19,4,Group households,,Group household member,2.6
+2011,15-19,4,Lone person households,,Male lone person,0.5
+2011,15-19,4,Lone person households,,Female lone person,0.5
+2011,15-19,4,Non-private dwelling,,Usual resident of a non-private dwelling,2.4
+2011,20-24,5,Family households,Couple families with children,"Husband, wife or partner",5.6
+2011,20-24,5,Family households,Couple families with children,Child,33.2
+2011,20-24,5,Family households,Couple families with children,Other related individual,0.9
+2011,20-24,5,Family households,Couple families without children,"Husband, wife or partner",14.0
+2011,20-24,5,Family households,Couple families without children,Other related individual,0.9
+2011,20-24,5,Family households,One parent families,Male parent,0.1
+2011,20-24,5,Family households,One parent families,Female parent,2.4
+2011,20-24,5,Family households,One parent families,Child,11.1
+2011,20-24,5,Family households,One parent families,Other related individual,0.5
+2011,20-24,5,Family households,Other families,Related individual,3.8
+2011,20-24,5,Family households,Other families,Unrelated individual,4.6
+2011,20-24,5,Group households,,Group household member,14.8
+2011,20-24,5,Lone person households,,Male lone person,2.8
+2011,20-24,5,Lone person households,,Female lone person,2.3
+2011,20-24,5,Non-private dwelling,,Usual resident of a non-private dwelling,3.1
+2011,25-29,6,Family households,Couple families with children,"Husband, wife or partner",20.7
+2011,25-29,6,Family households,Couple families with children,Child,12.0
+2011,25-29,6,Family households,Couple families with children,Other related individual,0.6
+2011,25-29,6,Family households,Couple families without children,"Husband, wife or partner",29.5
+2011,25-29,6,Family households,Couple families without children,Other related individual,0.6
+2011,25-29,6,Family households,One parent families,Male parent,0.3
+2011,25-29,6,Family households,One parent families,Female parent,3.7
+2011,25-29,6,Family households,One parent families,Child,4.8
+2011,25-29,6,Family households,One parent families,Other related individual,0.3
+2011,25-29,6,Family households,Other families,Related individual,2.6
+2011,25-29,6,Family households,Other families,Unrelated individual,3.3
+2011,25-29,6,Group households,,Group household member,12.0
+2011,25-29,6,Lone person households,,Male lone person,4.5
+2011,25-29,6,Lone person households,,Female lone person,3.3
+2011,25-29,6,Non-private dwelling,,Usual resident of a non-private dwelling,1.8
+2011,30-34,7,Family households,Couple families with children,"Husband, wife or partner",45.2
+2011,30-34,7,Family households,Couple families with children,Child,4.8
+2011,30-34,7,Family households,Couple families with children,Other related individual,0.3
+2011,30-34,7,Family households,Couple families without children,"Husband, wife or partner",22.7
+2011,30-34,7,Family households,Couple families without children,Other related individual,0.2
+2011,30-34,7,Family households,One parent families,Male parent,0.5
+2011,30-34,7,Family households,One parent families,Female parent,5.0
+2011,30-34,7,Family households,One parent families,Child,2.5
+2011,30-34,7,Family households,One parent families,Other related individual,0.2
+2011,30-34,7,Family households,Other families,Related individual,1.3
+2011,30-34,7,Family households,Other families,Unrelated individual,1.6
+2011,30-34,7,Group households,,Group household member,5.8
+2011,30-34,7,Lone person households,,Male lone person,4.8
+2011,30-34,7,Lone person households,,Female lone person,3.5
+2011,30-34,7,Non-private dwelling,,Usual resident of a non-private dwelling,1.4
+2011,35-39,8,Family households,Couple families with children,"Husband, wife or partner",61.0
+2011,35-39,8,Family households,Couple families with children,Child,2.7
+2011,35-39,8,Family households,Couple families with children,Other related individual,0.2
+2011,35-39,8,Family households,Couple families without children,"Husband, wife or partner",12.2
+2011,35-39,8,Family households,Couple families without children,Other related individual,0.1
+2011,35-39,8,Family households,One parent families,Male parent,1.0
+2011,35-39,8,Family households,One parent families,Female parent,6.7
+2011,35-39,8,Family households,One parent families,Child,1.9
+2011,35-39,8,Family households,One parent families,Other related individual,0.2
+2011,35-39,8,Family households,Other families,Related individual,0.7
+2011,35-39,8,Family households,Other families,Unrelated individual,0.9
+2011,35-39,8,Group households,,Group household member,3.0
+2011,35-39,8,Lone person households,,Male lone person,4.8
+2011,35-39,8,Lone person households,,Female lone person,3.2
+2011,35-39,8,Non-private dwelling,,Usual resident of a non-private dwelling,1.1
+2011,40-44,9,Family households,Couple families with children,"Husband, wife or partner",63.5
+2011,40-44,9,Family households,Couple families with children,Child,1.8
+2011,40-44,9,Family households,Couple families with children,Other related individual,0.2
+2011,40-44,9,Family households,Couple families without children,"Husband, wife or partner",9.8
+2011,40-44,9,Family households,Couple families without children,Other related individual,0.1
+2011,40-44,9,Family households,One parent families,Male parent,1.5
+2011,40-44,9,Family households,One parent families,Female parent,8.0
+2011,40-44,9,Family households,One parent families,Child,1.7
+2011,40-44,9,Family households,One parent families,Other related individual,0.3
+2011,40-44,9,Family households,Other families,Related individual,0.6
+2011,40-44,9,Family households,Other families,Unrelated individual,0.8
+2011,40-44,9,Group households,,Group household member,2.4
+2011,40-44,9,Lone person households,,Male lone person,5.2
+2011,40-44,9,Lone person households,,Female lone person,3.1
+2011,40-44,9,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2011,45-49,10,Family households,Couple families with children,"Husband, wife or partner",58.7
+2011,45-49,10,Family households,Couple families with children,Child,1.1
+2011,45-49,10,Family households,Couple families with children,Other related individual,0.2
+2011,45-49,10,Family households,Couple families without children,"Husband, wife or partner",13.7
+2011,45-49,10,Family households,Couple families without children,Other related individual,0.1
+2011,45-49,10,Family households,One parent families,Male parent,2.0
+2011,45-49,10,Family households,One parent families,Female parent,8.0
+2011,45-49,10,Family households,One parent families,Child,1.7
+2011,45-49,10,Family households,One parent families,Other related individual,0.3
+2011,45-49,10,Family households,Other families,Related individual,0.6
+2011,45-49,10,Family households,Other families,Unrelated individual,0.7
+2011,45-49,10,Group households,,Group household member,2.4
+2011,45-49,10,Lone person households,,Male lone person,5.7
+2011,45-49,10,Lone person households,,Female lone person,3.8
+2011,45-49,10,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2011,50-54,11,Family households,Couple families with children,"Husband, wife or partner",47.0
+2011,50-54,11,Family households,Couple families with children,Child,0.6
+2011,50-54,11,Family households,Couple families with children,Other related individual,0.4
+2011,50-54,11,Family households,Couple families without children,"Husband, wife or partner",24.7
+2011,50-54,11,Family households,Couple families without children,Other related individual,0.2
+2011,50-54,11,Family households,One parent families,Male parent,1.9
+2011,50-54,11,Family households,One parent families,Female parent,6.6
+2011,50-54,11,Family households,One parent families,Child,1.6
+2011,50-54,11,Family households,One parent families,Other related individual,0.4
+2011,50-54,11,Family households,Other families,Related individual,0.7
+2011,50-54,11,Family households,Other families,Unrelated individual,0.7
+2011,50-54,11,Group households,,Group household member,2.5
+2011,50-54,11,Lone person households,,Male lone person,6.3
+2011,50-54,11,Lone person households,,Female lone person,5.3
+2011,50-54,11,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2011,55-59,12,Family households,Couple families with children,"Husband, wife or partner",31.0
+2011,55-59,12,Family households,Couple families with children,Child,0.3
+2011,55-59,12,Family households,Couple families with children,Other related individual,0.6
+2011,55-59,12,Family households,Couple families without children,"Husband, wife or partner",40.8
+2011,55-59,12,Family households,Couple families without children,Other related individual,0.3
+2011,55-59,12,Family households,One parent families,Male parent,1.6
+2011,55-59,12,Family households,One parent families,Female parent,4.5
+2011,55-59,12,Family households,One parent families,Child,1.4
+2011,55-59,12,Family households,One parent families,Other related individual,0.5
+2011,55-59,12,Family households,Other families,Related individual,0.8
+2011,55-59,12,Family households,Other families,Unrelated individual,0.6
+2011,55-59,12,Group households,,Group household member,2.6
+2011,55-59,12,Lone person households,,Male lone person,6.9
+2011,55-59,12,Lone person households,,Female lone person,7.4
+2011,55-59,12,Non-private dwelling,,Usual resident of a non-private dwelling,0.9
+2011,60-64,13,Family households,Couple families with children,"Husband, wife or partner",17.7
+2011,60-64,13,Family households,Couple families with children,Child,0.1
+2011,60-64,13,Family households,Couple families with children,Other related individual,0.8
+2011,60-64,13,Family households,Couple families without children,"Husband, wife or partner",54.2
+2011,60-64,13,Family households,Couple families without children,Other related individual,0.3
+2011,60-64,13,Family households,One parent families,Male parent,1.1
+2011,60-64,13,Family households,One parent families,Female parent,3.0
+2011,60-64,13,Family households,One parent families,Child,0.9
+2011,60-64,13,Family households,One parent families,Other related individual,0.6
+2011,60-64,13,Family households,Other families,Related individual,0.8
+2011,60-64,13,Family households,Other families,Unrelated individual,0.4
+2011,60-64,13,Group households,,Group household member,2.5
+2011,60-64,13,Lone person households,,Male lone person,7.3
+2011,60-64,13,Lone person households,,Female lone person,9.5
+2011,60-64,13,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2011,65-69,14,Family households,Couple families with children,"Husband, wife or partner",11.0
+2011,65-69,14,Family households,Couple families with children,Child,0.0
+2011,65-69,14,Family households,Couple families with children,Other related individual,1.0
+2011,65-69,14,Family households,Couple families without children,"Husband, wife or partner",59.1
+2011,65-69,14,Family households,Couple families without children,Other related individual,0.3
+2011,65-69,14,Family households,One parent families,Male parent,0.8
+2011,65-69,14,Family households,One parent families,Female parent,2.5
+2011,65-69,14,Family households,One parent families,Child,0.4
+2011,65-69,14,Family households,One parent families,Other related individual,0.7
+2011,65-69,14,Family households,Other families,Related individual,0.9
+2011,65-69,14,Family households,Other families,Unrelated individual,0.3
+2011,65-69,14,Group households,,Group household member,2.3
+2011,65-69,14,Lone person households,,Male lone person,7.6
+2011,65-69,14,Lone person households,,Female lone person,11.8
+2011,65-69,14,Non-private dwelling,,Usual resident of a non-private dwelling,1.2
+2011,70-74,15,Family households,Couple families with children,"Husband, wife or partner",8.1
+2011,70-74,15,Family households,Couple families with children,Child,0.0
+2011,70-74,15,Family households,Couple families with children,Other related individual,1.3
+2011,70-74,15,Family households,Couple families without children,"Husband, wife or partner",58.0
+2011,70-74,15,Family households,Couple families without children,Other related individual,0.4
+2011,70-74,15,Family households,One parent families,Male parent,0.7
+2011,70-74,15,Family households,One parent families,Female parent,2.8
+2011,70-74,15,Family households,One parent families,Child,0.1
+2011,70-74,15,Family households,One parent families,Other related individual,0.8
+2011,70-74,15,Family households,Other families,Related individual,1.0
+2011,70-74,15,Family households,Other families,Unrelated individual,0.3
+2011,70-74,15,Group households,,Group household member,1.9
+2011,70-74,15,Lone person households,,Male lone person,7.8
+2011,70-74,15,Lone person households,,Female lone person,14.9
+2011,70-74,15,Non-private dwelling,,Usual resident of a non-private dwelling,2.0
+2011,75-79,16,Family households,Couple families with children,"Husband, wife or partner",6.0
+2011,75-79,16,Family households,Couple families with children,Child,0.0
+2011,75-79,16,Family households,Couple families with children,Other related individual,1.6
+2011,75-79,16,Family households,Couple families without children,"Husband, wife or partner",51.9
+2011,75-79,16,Family households,Couple families without children,Other related individual,0.6
+2011,75-79,16,Family households,One parent families,Male parent,0.9
+2011,75-79,16,Family households,One parent families,Female parent,3.6
+2011,75-79,16,Family households,One parent families,Child,0.0
+2011,75-79,16,Family households,One parent families,Other related individual,0.8
+2011,75-79,16,Family households,Other families,Related individual,1.0
+2011,75-79,16,Family households,Other families,Unrelated individual,0.2
+2011,75-79,16,Group households,,Group household member,1.6
+2011,75-79,16,Lone person households,,Male lone person,8.1
+2011,75-79,16,Lone person households,,Female lone person,19.4
+2011,75-79,16,Non-private dwelling,,Usual resident of a non-private dwelling,4.0
+2011,80-84,17,Family households,Couple families with children,"Husband, wife or partner",4.1
+2011,80-84,17,Family households,Couple families with children,Child,0.0
+2011,80-84,17,Family households,Couple families with children,Other related individual,1.9
+2011,80-84,17,Family households,Couple families without children,"Husband, wife or partner",40.9
+2011,80-84,17,Family households,Couple families without children,Other related individual,1.2
+2011,80-84,17,Family households,One parent families,Male parent,1.0
+2011,80-84,17,Family households,One parent families,Female parent,4.5
+2011,80-84,17,Family households,One parent families,Child,0.0
+2011,80-84,17,Family households,One parent families,Other related individual,0.9
+2011,80-84,17,Family households,Other families,Related individual,1.0
+2011,80-84,17,Family households,Other families,Unrelated individual,0.2
+2011,80-84,17,Group households,,Group household member,1.3
+2011,80-84,17,Lone person households,,Male lone person,9.0
+2011,80-84,17,Lone person households,,Female lone person,25.1
+2011,80-84,17,Non-private dwelling,,Usual resident of a non-private dwelling,9.0
+2011,85+,18,Family households,Couple families with children,"Husband, wife or partner",2.1
+2011,85+,18,Family households,Couple families with children,Child,0.0
+2011,85+,18,Family households,Couple families with children,Other related individual,1.9
+2011,85+,18,Family households,Couple families without children,"Husband, wife or partner",21.8
+2011,85+,18,Family households,Couple families without children,Other related individual,2.3
+2011,85+,18,Family households,One parent families,Male parent,1.3
+2011,85+,18,Family households,One parent families,Female parent,5.2
+2011,85+,18,Family households,One parent families,Child,0.0
+2011,85+,18,Family households,One parent families,Other related individual,0.8
+2011,85+,18,Family households,Other families,Related individual,0.9
+2011,85+,18,Family households,Other families,Unrelated individual,0.2
+2011,85+,18,Group households,,Group household member,0.9
+2011,85+,18,Lone person households,,Male lone person,8.9
+2011,85+,18,Lone person households,,Female lone person,27.0
+2011,85+,18,Non-private dwelling,,Usual resident of a non-private dwelling,26.7
+2011,Total,19,Family households,Couple families with children,"Husband, wife or partner",24.9
+2011,Total,19,Family households,Couple families with children,Child,24.0
+2011,Total,19,Family households,Couple families with children,Other related individual,0.5
+2011,Total,19,Family households,Couple families without children,"Husband, wife or partner",21.1
+2011,Total,19,Family households,Couple families without children,Other related individual,0.3
+2011,Total,19,Family households,One parent families,Male parent,0.8
+2011,Total,19,Family households,One parent families,Female parent,3.7
+2011,Total,19,Family households,One parent families,Child,7.0
+2011,Total,19,Family households,One parent families,Other related individual,0.4
+2011,Total,19,Family households,Other families,Related individual,1.0
+2011,Total,19,Family households,Other families,Unrelated individual,1.1
+2011,Total,19,Group households,,Group household member,3.6
+2011,Total,19,Lone person households,,Male lone person,4.3
+2011,Total,19,Lone person households,,Female lone person,5.2
+2011,Total,19,Non-private dwelling,,Usual resident of a non-private dwelling,1.9
+2016,0-4,1,Family households,Couple families with children,"Husband, wife or partner",0.0
+2016,0-4,1,Family households,Couple families with children,Child,86.0
+2016,0-4,1,Family households,Couple families with children,Other related individual,0.0
+2016,0-4,1,Family households,Couple families without children,"Husband, wife or partner",0.0
+2016,0-4,1,Family households,Couple families without children,Other related individual,0.0
+2016,0-4,1,Family households,One parent families,Male parent,0.0
+2016,0-4,1,Family households,One parent families,Female parent,0.0
+2016,0-4,1,Family households,One parent families,Child,13.9
+2016,0-4,1,Family households,One parent families,Other related individual,0.0
+2016,0-4,1,Family households,Other families,Related individual,0.0
+2016,0-4,1,Family households,Other families,Unrelated individual,0.0
+2016,0-4,1,Group households,,Group household member,0.0
+2016,0-4,1,Lone person households,,Male lone person,0.0
+2016,0-4,1,Lone person households,,Female lone person,0.0
+2016,0-4,1,Non-private dwelling,,Usual resident of a non-private dwelling,0.1
+2016,5-9,2,Family households,Couple families with children,"Husband, wife or partner",0.0
+2016,5-9,2,Family households,Couple families with children,Child,81.4
+2016,5-9,2,Family households,Couple families with children,Other related individual,0.0
+2016,5-9,2,Family households,Couple families without children,"Husband, wife or partner",0.0
+2016,5-9,2,Family households,Couple families without children,Other related individual,0.0
+2016,5-9,2,Family households,One parent families,Male parent,0.0
+2016,5-9,2,Family households,One parent families,Female parent,0.0
+2016,5-9,2,Family households,One parent families,Child,18.5
+2016,5-9,2,Family households,One parent families,Other related individual,0.0
+2016,5-9,2,Family households,Other families,Related individual,0.0
+2016,5-9,2,Family households,Other families,Unrelated individual,0.0
+2016,5-9,2,Group households,,Group household member,0.0
+2016,5-9,2,Lone person households,,Male lone person,0.0
+2016,5-9,2,Lone person households,,Female lone person,0.0
+2016,5-9,2,Non-private dwelling,,Usual resident of a non-private dwelling,0.1
+2016,10-14,3,Family households,Couple families with children,"Husband, wife or partner",0.0
+2016,10-14,3,Family households,Couple families with children,Child,77.5
+2016,10-14,3,Family households,Couple families with children,Other related individual,0.0
+2016,10-14,3,Family households,Couple families without children,"Husband, wife or partner",0.0
+2016,10-14,3,Family households,Couple families without children,Other related individual,0.0
+2016,10-14,3,Family households,One parent families,Male parent,0.0
+2016,10-14,3,Family households,One parent families,Female parent,0.0
+2016,10-14,3,Family households,One parent families,Child,22.0
+2016,10-14,3,Family households,One parent families,Other related individual,0.0
+2016,10-14,3,Family households,Other families,Related individual,0.0
+2016,10-14,3,Family households,Other families,Unrelated individual,0.0
+2016,10-14,3,Group households,,Group household member,0.0
+2016,10-14,3,Lone person households,,Male lone person,0.0
+2016,10-14,3,Lone person households,,Female lone person,0.0
+2016,10-14,3,Non-private dwelling,,Usual resident of a non-private dwelling,0.5
+2016,15-19,4,Family households,Couple families with children,"Husband, wife or partner",0.3
+2016,15-19,4,Family households,Couple families with children,Child,64.5
+2016,15-19,4,Family households,Couple families with children,Other related individual,1.0
+2016,15-19,4,Family households,Couple families without children,"Husband, wife or partner",1.2
+2016,15-19,4,Family households,Couple families without children,Other related individual,0.7
+2016,15-19,4,Family households,One parent families,Male parent,0.1
+2016,15-19,4,Family households,One parent families,Female parent,0.3
+2016,15-19,4,Family households,One parent families,Child,21.2
+2016,15-19,4,Family households,One parent families,Other related individual,0.6
+2016,15-19,4,Family households,Other families,Related individual,1.6
+2016,15-19,4,Family households,Other families,Unrelated individual,2.1
+2016,15-19,4,Group households,,Group household member,2.7
+2016,15-19,4,Lone person households,,Male lone person,0.5
+2016,15-19,4,Lone person households,,Female lone person,0.5
+2016,15-19,4,Non-private dwelling,,Usual resident of a non-private dwelling,2.7
+2016,20-24,5,Family households,Couple families with children,"Husband, wife or partner",4.4
+2016,20-24,5,Family households,Couple families with children,Child,34.2
+2016,20-24,5,Family households,Couple families with children,Other related individual,1.1
+2016,20-24,5,Family households,Couple families without children,"Husband, wife or partner",12.9
+2016,20-24,5,Family households,Couple families without children,Other related individual,1.0
+2016,20-24,5,Family households,One parent families,Male parent,0.1
+2016,20-24,5,Family households,One parent families,Female parent,1.9
+2016,20-24,5,Family households,One parent families,Child,12.2
+2016,20-24,5,Family households,One parent families,Other related individual,0.5
+2016,20-24,5,Family households,Other families,Related individual,3.6
+2016,20-24,5,Family households,Other families,Unrelated individual,5.0
+2016,20-24,5,Group households,,Group household member,15.1
+2016,20-24,5,Lone person households,,Male lone person,2.4
+2016,20-24,5,Lone person households,,Female lone person,2.2
+2016,20-24,5,Non-private dwelling,,Usual resident of a non-private dwelling,3.3
+2016,25-29,6,Family households,Couple families with children,"Husband, wife or partner",18.4
+2016,25-29,6,Family households,Couple families with children,Child,12.9
+2016,25-29,6,Family households,Couple families with children,Other related individual,0.8
+2016,25-29,6,Family households,Couple families without children,"Husband, wife or partner",29.0
+2016,25-29,6,Family households,Couple families without children,Other related individual,0.6
+2016,25-29,6,Family households,One parent families,Male parent,0.3
+2016,25-29,6,Family households,One parent families,Female parent,3.3
+2016,25-29,6,Family households,One parent families,Child,5.5
+2016,25-29,6,Family households,One parent families,Other related individual,0.3
+2016,25-29,6,Family households,Other families,Related individual,2.5
+2016,25-29,6,Family households,Other families,Unrelated individual,4.3
+2016,25-29,6,Group households,,Group household member,13.0
+2016,25-29,6,Lone person households,,Male lone person,3.9
+2016,25-29,6,Lone person households,,Female lone person,3.2
+2016,25-29,6,Non-private dwelling,,Usual resident of a non-private dwelling,2.1
+2016,30-34,7,Family households,Couple families with children,"Husband, wife or partner",44.0
+2016,30-34,7,Family households,Couple families with children,Child,4.9
+2016,30-34,7,Family households,Couple families with children,Other related individual,0.4
+2016,30-34,7,Family households,Couple families without children,"Husband, wife or partner",23.7
+2016,30-34,7,Family households,Couple families without children,Other related individual,0.3
+2016,30-34,7,Family households,One parent families,Male parent,0.5
+2016,30-34,7,Family households,One parent families,Female parent,4.3
+2016,30-34,7,Family households,One parent families,Child,2.8
+2016,30-34,7,Family households,One parent families,Other related individual,0.2
+2016,30-34,7,Family households,Other families,Related individual,1.2
+2016,30-34,7,Family households,Other families,Unrelated individual,2.2
+2016,30-34,7,Group households,,Group household member,6.3
+2016,30-34,7,Lone person households,,Male lone person,4.3
+2016,30-34,7,Lone person households,,Female lone person,3.3
+2016,30-34,7,Non-private dwelling,,Usual resident of a non-private dwelling,1.5
+2016,35-39,8,Family households,Couple families with children,"Husband, wife or partner",60.7
+2016,35-39,8,Family households,Couple families with children,Child,2.9
+2016,35-39,8,Family households,Couple families with children,Other related individual,0.3
+2016,35-39,8,Family households,Couple families without children,"Husband, wife or partner",12.8
+2016,35-39,8,Family households,Couple families without children,Other related individual,0.1
+2016,35-39,8,Family households,One parent families,Male parent,0.9
+2016,35-39,8,Family households,One parent families,Female parent,6.0
+2016,35-39,8,Family households,One parent families,Child,2.0
+2016,35-39,8,Family households,One parent families,Other related individual,0.2
+2016,35-39,8,Family households,Other families,Related individual,0.7
+2016,35-39,8,Family households,Other families,Unrelated individual,1.3
+2016,35-39,8,Group households,,Group household member,3.3
+2016,35-39,8,Lone person households,,Male lone person,4.4
+2016,35-39,8,Lone person households,,Female lone person,3.1
+2016,35-39,8,Non-private dwelling,,Usual resident of a non-private dwelling,1.3
+2016,40-44,9,Family households,Couple families with children,"Husband, wife or partner",63.8
+2016,40-44,9,Family households,Couple families with children,Child,2.0
+2016,40-44,9,Family households,Couple families with children,Other related individual,0.2
+2016,40-44,9,Family households,Couple families without children,"Husband, wife or partner",9.5
+2016,40-44,9,Family households,Couple families without children,Other related individual,0.1
+2016,40-44,9,Family households,One parent families,Male parent,1.4
+2016,40-44,9,Family households,One parent families,Female parent,7.7
+2016,40-44,9,Family households,One parent families,Child,1.9
+2016,40-44,9,Family households,One parent families,Other related individual,0.2
+2016,40-44,9,Family households,Other families,Related individual,0.6
+2016,40-44,9,Family households,Other families,Unrelated individual,1.0
+2016,40-44,9,Group households,,Group household member,2.5
+2016,40-44,9,Lone person households,,Male lone person,4.8
+2016,40-44,9,Lone person households,,Female lone person,3.2
+2016,40-44,9,Non-private dwelling,,Usual resident of a non-private dwelling,1.1
+2016,45-49,10,Family households,Couple families with children,"Husband, wife or partner",59.4
+2016,45-49,10,Family households,Couple families with children,Child,1.4
+2016,45-49,10,Family households,Couple families with children,Other related individual,0.3
+2016,45-49,10,Family households,Couple families without children,"Husband, wife or partner",12.2
+2016,45-49,10,Family households,Couple families without children,Other related individual,0.2
+2016,45-49,10,Family households,One parent families,Male parent,1.9
+2016,45-49,10,Family households,One parent families,Female parent,8.2
+2016,45-49,10,Family households,One parent families,Child,1.9
+2016,45-49,10,Family households,One parent families,Other related individual,0.3
+2016,45-49,10,Family households,Other families,Related individual,0.6
+2016,45-49,10,Family households,Other families,Unrelated individual,0.9
+2016,45-49,10,Group households,,Group household member,2.5
+2016,45-49,10,Lone person households,,Male lone person,5.5
+2016,45-49,10,Lone person households,,Female lone person,3.7
+2016,45-49,10,Non-private dwelling,,Usual resident of a non-private dwelling,1.1
+2016,50-54,11,Family households,Couple families with children,"Husband, wife or partner",49.0
+2016,50-54,11,Family households,Couple families with children,Child,0.8
+2016,50-54,11,Family households,Couple families with children,Other related individual,0.5
+2016,50-54,11,Family households,Couple families without children,"Husband, wife or partner",21.3
+2016,50-54,11,Family households,Couple families without children,Other related individual,0.3
+2016,50-54,11,Family households,One parent families,Male parent,2.1
+2016,50-54,11,Family households,One parent families,Female parent,7.1
+2016,50-54,11,Family households,One parent families,Child,1.8
+2016,50-54,11,Family households,One parent families,Other related individual,0.4
+2016,50-54,11,Family households,Other families,Related individual,0.7
+2016,50-54,11,Family households,Other families,Unrelated individual,0.8
+2016,50-54,11,Group households,,Group household member,2.7
+2016,50-54,11,Lone person households,,Male lone person,6.3
+2016,50-54,11,Lone person households,,Female lone person,5.1
+2016,50-54,11,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2016,55-59,12,Family households,Couple families with children,"Husband, wife or partner",34.0
+2016,55-59,12,Family households,Couple families with children,Child,0.4
+2016,55-59,12,Family households,Couple families with children,Other related individual,0.7
+2016,55-59,12,Family households,Couple families without children,"Husband, wife or partner",35.6
+2016,55-59,12,Family households,Couple families without children,Other related individual,0.4
+2016,55-59,12,Family households,One parent families,Male parent,1.7
+2016,55-59,12,Family households,One parent families,Female parent,5.3
+2016,55-59,12,Family households,One parent families,Child,1.6
+2016,55-59,12,Family households,One parent families,Other related individual,0.5
+2016,55-59,12,Family households,Other families,Related individual,0.9
+2016,55-59,12,Family households,Other families,Unrelated individual,0.7
+2016,55-59,12,Group households,,Group household member,2.9
+2016,55-59,12,Lone person households,,Male lone person,7.0
+2016,55-59,12,Lone person households,,Female lone person,7.3
+2016,55-59,12,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2016,60-64,13,Family households,Couple families with children,"Husband, wife or partner",20.2
+2016,60-64,13,Family households,Couple families with children,Child,0.1
+2016,60-64,13,Family households,Couple families with children,Other related individual,1.1
+2016,60-64,13,Family households,Couple families without children,"Husband, wife or partner",49.2
+2016,60-64,13,Family households,Couple families without children,Other related individual,0.4
+2016,60-64,13,Family households,One parent families,Male parent,1.3
+2016,60-64,13,Family households,One parent families,Female parent,3.5
+2016,60-64,13,Family households,One parent families,Child,1.1
+2016,60-64,13,Family households,One parent families,Other related individual,0.7
+2016,60-64,13,Family households,Other families,Related individual,1.0
+2016,60-64,13,Family households,Other families,Unrelated individual,0.6
+2016,60-64,13,Group households,,Group household member,2.8
+2016,60-64,13,Lone person households,,Male lone person,7.5
+2016,60-64,13,Lone person households,,Female lone person,9.5
+2016,60-64,13,Non-private dwelling,,Usual resident of a non-private dwelling,1.1
+2016,65-69,14,Family households,Couple families with children,"Husband, wife or partner",12.1
+2016,65-69,14,Family households,Couple families with children,Child,0.0
+2016,65-69,14,Family households,Couple families with children,Other related individual,1.2
+2016,65-69,14,Family households,Couple families without children,"Husband, wife or partner",56.9
+2016,65-69,14,Family households,Couple families without children,Other related individual,0.3
+2016,65-69,14,Family households,One parent families,Male parent,1.0
+2016,65-69,14,Family households,One parent families,Female parent,2.7
+2016,65-69,14,Family households,One parent families,Child,0.5
+2016,65-69,14,Family households,One parent families,Other related individual,0.7
+2016,65-69,14,Family households,Other families,Related individual,1.0
+2016,65-69,14,Family households,Other families,Unrelated individual,0.4
+2016,65-69,14,Group households,,Group household member,2.5
+2016,65-69,14,Lone person households,,Male lone person,7.9
+2016,65-69,14,Lone person households,,Female lone person,11.7
+2016,65-69,14,Non-private dwelling,,Usual resident of a non-private dwelling,1.2
+2016,70-74,15,Family households,Couple families with children,"Husband, wife or partner",8.4
+2016,70-74,15,Family households,Couple families with children,Child,0.0
+2016,70-74,15,Family households,Couple families with children,Other related individual,1.3
+2016,70-74,15,Family households,Couple families without children,"Husband, wife or partner",57.8
+2016,70-74,15,Family households,Couple families without children,Other related individual,0.4
+2016,70-74,15,Family households,One parent families,Male parent,0.8
+2016,70-74,15,Family households,One parent families,Female parent,2.7
+2016,70-74,15,Family households,One parent families,Child,0.2
+2016,70-74,15,Family households,One parent families,Other related individual,0.8
+2016,70-74,15,Family households,Other families,Related individual,0.9
+2016,70-74,15,Family households,Other families,Unrelated individual,0.3
+2016,70-74,15,Group households,,Group household member,2.1
+2016,70-74,15,Lone person households,,Male lone person,8.1
+2016,70-74,15,Lone person households,,Female lone person,14.2
+2016,70-74,15,Non-private dwelling,,Usual resident of a non-private dwelling,1.9
+2016,75-79,16,Family households,Couple families with children,"Husband, wife or partner",6.6
+2016,75-79,16,Family households,Couple families with children,Child,0.0
+2016,75-79,16,Family households,Couple families with children,Other related individual,1.6
+2016,75-79,16,Family households,Couple families without children,"Husband, wife or partner",53.0
+2016,75-79,16,Family households,Couple families without children,Other related individual,0.6
+2016,75-79,16,Family households,One parent families,Male parent,0.9
+2016,75-79,16,Family households,One parent families,Female parent,3.4
+2016,75-79,16,Family households,One parent families,Child,0.0
+2016,75-79,16,Family households,One parent families,Other related individual,0.9
+2016,75-79,16,Family households,Other families,Related individual,1.0
+2016,75-79,16,Family households,Other families,Unrelated individual,0.3
+2016,75-79,16,Group households,,Group household member,1.8
+2016,75-79,16,Lone person households,,Male lone person,8.2
+2016,75-79,16,Lone person households,,Female lone person,18.1
+2016,75-79,16,Non-private dwelling,,Usual resident of a non-private dwelling,3.7
+2016,80-84,17,Family households,Couple families with children,"Husband, wife or partner",5.0
+2016,80-84,17,Family households,Couple families with children,Child,0.0
+2016,80-84,17,Family households,Couple families with children,Other related individual,1.9
+2016,80-84,17,Family households,Couple families without children,"Husband, wife or partner",43.0
+2016,80-84,17,Family households,Couple families without children,Other related individual,1.1
+2016,80-84,17,Family households,One parent families,Male parent,1.1
+2016,80-84,17,Family households,One parent families,Female parent,4.6
+2016,80-84,17,Family households,One parent families,Child,0.0
+2016,80-84,17,Family households,One parent families,Other related individual,1.0
+2016,80-84,17,Family households,Other families,Related individual,1.0
+2016,80-84,17,Family households,Other families,Unrelated individual,0.2
+2016,80-84,17,Group households,,Group household member,1.3
+2016,80-84,17,Lone person households,,Male lone person,8.7
+2016,80-84,17,Lone person households,,Female lone person,22.8
+2016,80-84,17,Non-private dwelling,,Usual resident of a non-private dwelling,8.2
+2016,85+,18,Family households,Couple families with children,"Husband, wife or partner",2.8
+2016,85+,18,Family households,Couple families with children,Child,0.0
+2016,85+,18,Family households,Couple families with children,Other related individual,1.9
+2016,85+,18,Family households,Couple families without children,"Husband, wife or partner",23.1
+2016,85+,18,Family households,Couple families without children,Other related individual,2.2
+2016,85+,18,Family households,One parent families,Male parent,1.4
+2016,85+,18,Family households,One parent families,Female parent,5.6
+2016,85+,18,Family households,One parent families,Child,0.0
+2016,85+,18,Family households,One parent families,Other related individual,0.9
+2016,85+,18,Family households,Other families,Related individual,0.9
+2016,85+,18,Family households,Other families,Unrelated individual,0.2
+2016,85+,18,Group households,,Group household member,0.9
+2016,85+,18,Lone person households,,Male lone person,9.1
+2016,85+,18,Lone person households,,Female lone person,25.6
+2016,85+,18,Non-private dwelling,,Usual resident of a non-private dwelling,25.4
+2016,Total,19,Family households,Couple families with children,"Husband, wife or partner",24.8
+2016,Total,19,Family households,Couple families with children,Child,23.7
+2016,Total,19,Family households,Couple families with children,Other related individual,0.6
+2016,Total,19,Family households,Couple families without children,"Husband, wife or partner",21.0
+2016,Total,19,Family households,Couple families without children,Other related individual,0.4
+2016,Total,19,Family households,One parent families,Male parent,0.8
+2016,Total,19,Family households,One parent families,Female parent,3.7
+2016,Total,19,Family households,One parent families,Child,6.9
+2016,Total,19,Family households,One parent families,Other related individual,0.4
+2016,Total,19,Family households,Other families,Related individual,1.0
+2016,Total,19,Family households,Other families,Unrelated individual,1.3
+2016,Total,19,Group households,,Group household member,3.9
+2016,Total,19,Lone person households,,Male lone person,4.3
+2016,Total,19,Lone person households,,Female lone person,5.2
+2016,Total,19,Non-private dwelling,,Usual resident of a non-private dwelling,2.0
+2021,0-4,1,Family households,Couple families with children,"Husband, wife or partner",0.0
+2021,0-4,1,Family households,Couple families with children,Child,86.8
+2021,0-4,1,Family households,Couple families with children,Other related individual,0.0
+2021,0-4,1,Family households,Couple families without children,"Husband, wife or partner",0.0
+2021,0-4,1,Family households,Couple families without children,Other related individual,0.0
+2021,0-4,1,Family households,One parent families,Male parent,0.0
+2021,0-4,1,Family households,One parent families,Female parent,0.0
+2021,0-4,1,Family households,One parent families,Child,13.0
+2021,0-4,1,Family households,One parent families,Other related individual,0.0
+2021,0-4,1,Family households,Other families,Related individual,0.0
+2021,0-4,1,Family households,Other families,Unrelated individual,0.0
+2021,0-4,1,Group households,,Group household member,0.0
+2021,0-4,1,Lone person households,,Male lone person,0.0
+2021,0-4,1,Lone person households,,Female lone person,0.0
+2021,0-4,1,Non-private dwelling,,Usual resident of a non-private dwelling,0.2
+2021,5-9,2,Family households,Couple families with children,"Husband, wife or partner",0.0
+2021,5-9,2,Family households,Couple families with children,Child,81.7
+2021,5-9,2,Family households,Couple families with children,Other related individual,0.0
+2021,5-9,2,Family households,Couple families without children,"Husband, wife or partner",0.0
+2021,5-9,2,Family households,Couple families without children,Other related individual,0.0
+2021,5-9,2,Family households,One parent families,Male parent,0.0
+2021,5-9,2,Family households,One parent families,Female parent,0.0
+2021,5-9,2,Family households,One parent families,Child,18.1
+2021,5-9,2,Family households,One parent families,Other related individual,0.0
+2021,5-9,2,Family households,Other families,Related individual,0.0
+2021,5-9,2,Family households,Other families,Unrelated individual,0.0
+2021,5-9,2,Group households,,Group household member,0.0
+2021,5-9,2,Lone person households,,Male lone person,0.0
+2021,5-9,2,Lone person households,,Female lone person,0.0
+2021,5-9,2,Non-private dwelling,,Usual resident of a non-private dwelling,0.1
+2021,10-14,3,Family households,Couple families with children,"Husband, wife or partner",0.0
+2021,10-14,3,Family households,Couple families with children,Child,77.7
+2021,10-14,3,Family households,Couple families with children,Other related individual,0.0
+2021,10-14,3,Family households,Couple families without children,"Husband, wife or partner",0.0
+2021,10-14,3,Family households,Couple families without children,Other related individual,0.0
+2021,10-14,3,Family households,One parent families,Male parent,0.0
+2021,10-14,3,Family households,One parent families,Female parent,0.0
+2021,10-14,3,Family households,One parent families,Child,21.9
+2021,10-14,3,Family households,One parent families,Other related individual,0.0
+2021,10-14,3,Family households,Other families,Related individual,0.0
+2021,10-14,3,Family households,Other families,Unrelated individual,0.0
+2021,10-14,3,Group households,,Group household member,0.0
+2021,10-14,3,Lone person households,,Male lone person,0.0
+2021,10-14,3,Lone person households,,Female lone person,0.0
+2021,10-14,3,Non-private dwelling,,Usual resident of a non-private dwelling,0.4
+2021,15-19,4,Family households,Couple families with children,"Husband, wife or partner",0.2
+2021,15-19,4,Family households,Couple families with children,Child,67.4
+2021,15-19,4,Family households,Couple families with children,Other related individual,0.8
+2021,15-19,4,Family households,Couple families without children,"Husband, wife or partner",1.1
+2021,15-19,4,Family households,Couple families without children,Other related individual,0.7
+2021,15-19,4,Family households,One parent families,Male parent,0.1
+2021,15-19,4,Family households,One parent families,Female parent,0.2
+2021,15-19,4,Family households,One parent families,Child,22.1
+2021,15-19,4,Family households,One parent families,Other related individual,0.6
+2021,15-19,4,Family households,Other families,Related individual,1.2
+2021,15-19,4,Family households,Other families,Unrelated individual,1.4
+2021,15-19,4,Group households,,Group household member,1.4
+2021,15-19,4,Lone person households,,Male lone person,0.4
+2021,15-19,4,Lone person households,,Female lone person,0.4
+2021,15-19,4,Non-private dwelling,,Usual resident of a non-private dwelling,2.1
+2021,20-24,5,Family households,Couple families with children,"Husband, wife or partner",3.4
+2021,20-24,5,Family households,Couple families with children,Child,36.7
+2021,20-24,5,Family households,Couple families with children,Other related individual,1.0
+2021,20-24,5,Family households,Couple families without children,"Husband, wife or partner",13.5
+2021,20-24,5,Family households,Couple families without children,Other related individual,1.0
+2021,20-24,5,Family households,One parent families,Male parent,0.1
+2021,20-24,5,Family households,One parent families,Female parent,1.3
+2021,20-24,5,Family households,One parent families,Child,13.2
+2021,20-24,5,Family households,One parent families,Other related individual,0.5
+2021,20-24,5,Family households,Other families,Related individual,3.3
+2021,20-24,5,Family households,Other families,Unrelated individual,4.6
+2021,20-24,5,Group households,,Group household member,13.1
+2021,20-24,5,Lone person households,,Male lone person,2.6
+2021,20-24,5,Lone person households,,Female lone person,2.7
+2021,20-24,5,Non-private dwelling,,Usual resident of a non-private dwelling,3.0
+2021,25-29,6,Family households,Couple families with children,"Husband, wife or partner",15.4
+2021,25-29,6,Family households,Couple families with children,Child,13.4
+2021,25-29,6,Family households,Couple families with children,Other related individual,0.8
+2021,25-29,6,Family households,Couple families without children,"Husband, wife or partner",29.7
+2021,25-29,6,Family households,Couple families without children,Other related individual,0.7
+2021,25-29,6,Family households,One parent families,Male parent,0.3
+2021,25-29,6,Family households,One parent families,Female parent,2.9
+2021,25-29,6,Family households,One parent families,Child,6.2
+2021,25-29,6,Family households,One parent families,Other related individual,0.4
+2021,25-29,6,Family households,Other families,Related individual,2.4
+2021,25-29,6,Family households,Other families,Unrelated individual,4.3
+2021,25-29,6,Group households,,Group household member,13.0
+2021,25-29,6,Lone person households,,Male lone person,4.5
+2021,25-29,6,Lone person households,,Female lone person,4.1
+2021,25-29,6,Non-private dwelling,,Usual resident of a non-private dwelling,2.0
+2021,30-34,7,Family households,Couple families with children,"Husband, wife or partner",40.1
+2021,30-34,7,Family households,Couple families with children,Child,5.1
+2021,30-34,7,Family households,Couple families with children,Other related individual,0.5
+2021,30-34,7,Family households,Couple families without children,"Husband, wife or partner",25.9
+2021,30-34,7,Family households,Couple families without children,Other related individual,0.3
+2021,30-34,7,Family households,One parent families,Male parent,0.5
+2021,30-34,7,Family households,One parent families,Female parent,4.1
+2021,30-34,7,Family households,One parent families,Child,3.1
+2021,30-34,7,Family households,One parent families,Other related individual,0.3
+2021,30-34,7,Family households,Other families,Related individual,1.2
+2021,30-34,7,Family households,Other families,Unrelated individual,2.4
+2021,30-34,7,Group households,,Group household member,6.3
+2021,30-34,7,Lone person households,,Male lone person,4.7
+2021,30-34,7,Lone person households,,Female lone person,4.0
+2021,30-34,7,Non-private dwelling,,Usual resident of a non-private dwelling,1.5
+2021,35-39,8,Family households,Couple families with children,"Husband, wife or partner",59.7
+2021,35-39,8,Family households,Couple families with children,Child,2.8
+2021,35-39,8,Family households,Couple families with children,Other related individual,0.3
+2021,35-39,8,Family households,Couple families without children,"Husband, wife or partner",13.8
+2021,35-39,8,Family households,Couple families without children,Other related individual,0.1
+2021,35-39,8,Family households,One parent families,Male parent,1.0
+2021,35-39,8,Family households,One parent families,Female parent,5.5
+2021,35-39,8,Family households,One parent families,Child,2.1
+2021,35-39,8,Family households,One parent families,Other related individual,0.3
+2021,35-39,8,Family households,Other families,Related individual,0.7
+2021,35-39,8,Family households,Other families,Unrelated individual,1.3
+2021,35-39,8,Group households,,Group household member,3.2
+2021,35-39,8,Lone person households,,Male lone person,4.5
+2021,35-39,8,Lone person households,,Female lone person,3.5
+2021,35-39,8,Non-private dwelling,,Usual resident of a non-private dwelling,1.2
+2021,40-44,9,Family households,Couple families with children,"Husband, wife or partner",64.1
+2021,40-44,9,Family households,Couple families with children,Child,2.0
+2021,40-44,9,Family households,Couple families with children,Other related individual,0.2
+2021,40-44,9,Family households,Couple families without children,"Husband, wife or partner",9.6
+2021,40-44,9,Family households,Couple families without children,Other related individual,0.1
+2021,40-44,9,Family households,One parent families,Male parent,1.6
+2021,40-44,9,Family households,One parent families,Female parent,7.3
+2021,40-44,9,Family households,One parent families,Child,1.9
+2021,40-44,9,Family households,One parent families,Other related individual,0.3
+2021,40-44,9,Family households,Other families,Related individual,0.5
+2021,40-44,9,Family households,Other families,Unrelated individual,1.0
+2021,40-44,9,Group households,,Group household member,2.3
+2021,40-44,9,Lone person households,,Male lone person,4.6
+2021,40-44,9,Lone person households,,Female lone person,3.3
+2021,40-44,9,Non-private dwelling,,Usual resident of a non-private dwelling,1.0
+2021,45-49,10,Family households,Couple families with children,"Husband, wife or partner",60.3
+2021,45-49,10,Family households,Couple families with children,Child,1.6
+2021,45-49,10,Family households,Couple families with children,Other related individual,0.2
+2021,45-49,10,Family households,Couple families without children,"Husband, wife or partner",11.3
+2021,45-49,10,Family households,Couple families without children,Other related individual,0.1
+2021,45-49,10,Family households,One parent families,Male parent,2.1
+2021,45-49,10,Family households,One parent families,Female parent,8.4
+2021,45-49,10,Family households,One parent families,Child,2.0
+2021,45-49,10,Family households,One parent families,Other related individual,0.4
+2021,45-49,10,Family households,Other families,Related individual,0.5
+2021,45-49,10,Family households,Other families,Unrelated individual,0.9
+2021,45-49,10,Group households,,Group household member,2.2
+2021,45-49,10,Lone person households,,Male lone person,5.2
+2021,45-49,10,Lone person households,,Female lone person,3.8
+2021,45-49,10,Non-private dwelling,,Usual resident of a non-private dwelling,0.9
+2021,50-54,11,Family households,Couple families with children,"Husband, wife or partner",50.7
+2021,50-54,11,Family households,Couple families with children,Child,1.0
+2021,50-54,11,Family households,Couple families with children,Other related individual,0.4
+2021,50-54,11,Family households,Couple families without children,"Husband, wife or partner",19.1
+2021,50-54,11,Family households,Couple families without children,Other related individual,0.2
+2021,50-54,11,Family households,One parent families,Male parent,2.2
+2021,50-54,11,Family households,One parent families,Female parent,7.7
+2021,50-54,11,Family households,One parent families,Child,2.0
+2021,50-54,11,Family households,One parent families,Other related individual,0.5
+2021,50-54,11,Family households,Other families,Related individual,0.7
+2021,50-54,11,Family households,Other families,Unrelated individual,0.9
+2021,50-54,11,Group households,,Group household member,2.5
+2021,50-54,11,Lone person households,,Male lone person,6.1
+2021,50-54,11,Lone person households,,Female lone person,5.1
+2021,50-54,11,Non-private dwelling,,Usual resident of a non-private dwelling,0.9
+2021,55-59,12,Family households,Couple families with children,"Husband, wife or partner",35.6
+2021,55-59,12,Family households,Couple families with children,Child,0.5
+2021,55-59,12,Family households,Couple families with children,Other related individual,0.7
+2021,55-59,12,Family households,Couple families without children,"Husband, wife or partner",33.0
+2021,55-59,12,Family households,Couple families without children,Other related individual,0.4
+2021,55-59,12,Family households,One parent families,Male parent,1.9
+2021,55-59,12,Family households,One parent families,Female parent,5.7
+2021,55-59,12,Family households,One parent families,Child,1.8
+2021,55-59,12,Family households,One parent families,Other related individual,0.6
+2021,55-59,12,Family households,Other families,Related individual,0.9
+2021,55-59,12,Family households,Other families,Unrelated individual,0.8
+2021,55-59,12,Group households,,Group household member,2.8
+2021,55-59,12,Lone person households,,Male lone person,7.2
+2021,55-59,12,Lone person households,,Female lone person,7.2
+2021,55-59,12,Non-private dwelling,,Usual resident of a non-private dwelling,0.9
+2021,60-64,13,Family households,Couple families with children,"Husband, wife or partner",21.3
+2021,60-64,13,Family households,Couple families with children,Child,0.2
+2021,60-64,13,Family households,Couple families with children,Other related individual,1.1
+2021,60-64,13,Family households,Couple families without children,"Husband, wife or partner",46.7
+2021,60-64,13,Family households,Couple families without children,Other related individual,0.4
+2021,60-64,13,Family households,One parent families,Male parent,1.4
+2021,60-64,13,Family households,One parent families,Female parent,3.9
+2021,60-64,13,Family households,One parent families,Child,1.3
+2021,60-64,13,Family households,One parent families,Other related individual,0.8
+2021,60-64,13,Family households,Other families,Related individual,1.1
+2021,60-64,13,Family households,Other families,Unrelated individual,0.7
+2021,60-64,13,Group households,,Group household member,2.9
+2021,60-64,13,Lone person households,,Male lone person,7.8
+2021,60-64,13,Lone person households,,Female lone person,9.6
+2021,60-64,13,Non-private dwelling,,Usual resident of a non-private dwelling,0.9
+2021,65-69,14,Family households,Couple families with children,"Husband, wife or partner",12.5
+2021,65-69,14,Family households,Couple families with children,Child,0.0
+2021,65-69,14,Family households,Couple families with children,Other related individual,1.5
+2021,65-69,14,Family households,Couple families without children,"Husband, wife or partner",54.8
+2021,65-69,14,Family households,Couple families without children,Other related individual,0.4
+2021,65-69,14,Family households,One parent families,Male parent,1.0
+2021,65-69,14,Family households,One parent families,Female parent,2.9
+2021,65-69,14,Family households,One parent families,Child,0.6
+2021,65-69,14,Family households,One parent families,Other related individual,0.9
+2021,65-69,14,Family households,Other families,Related individual,1.1
+2021,65-69,14,Family households,Other families,Unrelated individual,0.5
+2021,65-69,14,Group households,,Group household member,2.7
+2021,65-69,14,Lone person households,,Male lone person,8.1
+2021,65-69,14,Lone person households,,Female lone person,11.7
+2021,65-69,14,Non-private dwelling,,Usual resident of a non-private dwelling,1.1
+2021,70-74,15,Family households,Couple families with children,"Husband, wife or partner",8.2
+2021,70-74,15,Family households,Couple families with children,Child,0.0
+2021,70-74,15,Family households,Couple families with children,Other related individual,1.5
+2021,70-74,15,Family households,Couple families without children,"Husband, wife or partner",57.6
+2021,70-74,15,Family households,Couple families without children,Other related individual,0.4
+2021,70-74,15,Family households,One parent families,Male parent,0.8
+2021,70-74,15,Family households,One parent families,Female parent,2.6
+2021,70-74,15,Family households,One parent families,Child,0.2
+2021,70-74,15,Family households,One parent families,Other related individual,0.9
+2021,70-74,15,Family households,Other families,Related individual,1.1
+2021,70-74,15,Family households,Other families,Unrelated individual,0.4
+2021,70-74,15,Group households,,Group household member,2.3
+2021,70-74,15,Lone person households,,Male lone person,8.3
+2021,70-74,15,Lone person households,,Female lone person,13.8
+2021,70-74,15,Non-private dwelling,,Usual resident of a non-private dwelling,1.8
+2021,75-79,16,Family households,Couple families with children,"Husband, wife or partner",6.3
+2021,75-79,16,Family households,Couple families with children,Child,0.0
+2021,75-79,16,Family households,Couple families with children,Other related individual,1.6
+2021,75-79,16,Family households,Couple families without children,"Husband, wife or partner",55.0
+2021,75-79,16,Family households,Couple families without children,Other related individual,0.6
+2021,75-79,16,Family households,One parent families,Male parent,0.8
+2021,75-79,16,Family households,One parent families,Female parent,3.1
+2021,75-79,16,Family households,One parent families,Child,0.0
+2021,75-79,16,Family households,One parent families,Other related individual,0.9
+2021,75-79,16,Family households,Other families,Related individual,0.9
+2021,75-79,16,Family households,Other families,Unrelated individual,0.3
+2021,75-79,16,Group households,,Group household member,1.9
+2021,75-79,16,Lone person households,,Male lone person,8.3
+2021,75-79,16,Lone person households,,Female lone person,17.0
+2021,75-79,16,Non-private dwelling,,Usual resident of a non-private dwelling,3.3
+2021,80-84,17,Family households,Couple families with children,"Husband, wife or partner",5.0
+2021,80-84,17,Family households,Couple families with children,Child,0.0
+2021,80-84,17,Family households,Couple families with children,Other related individual,1.9
+2021,80-84,17,Family households,Couple families without children,"Husband, wife or partner",46.1
+2021,80-84,17,Family households,Couple families without children,Other related individual,1.1
+2021,80-84,17,Family households,One parent families,Male parent,1.0
+2021,80-84,17,Family households,One parent families,Female parent,4.2
+2021,80-84,17,Family households,One parent families,Child,0.0
+2021,80-84,17,Family households,One parent families,Other related individual,1.1
+2021,80-84,17,Family households,Other families,Related individual,1.0
+2021,80-84,17,Family households,Other families,Unrelated individual,0.2
+2021,80-84,17,Group households,,Group household member,1.4
+2021,80-84,17,Lone person households,,Male lone person,8.6
+2021,80-84,17,Lone person households,,Female lone person,21.4
+2021,80-84,17,Non-private dwelling,,Usual resident of a non-private dwelling,7.0
+2021,85+,18,Family households,Couple families with children,"Husband, wife or partner",2.9
+2021,85+,18,Family households,Couple families with children,Child,0.0
+2021,85+,18,Family households,Couple families with children,Other related individual,2.0
+2021,85+,18,Family households,Couple families without children,"Husband, wife or partner",25.7
+2021,85+,18,Family households,Couple families without children,Other related individual,2.3
+2021,85+,18,Family households,One parent families,Male parent,1.5
+2021,85+,18,Family households,One parent families,Female parent,5.9
+2021,85+,18,Family households,One parent families,Child,0.0
+2021,85+,18,Family households,One parent families,Other related individual,1.0
+2021,85+,18,Family households,Other families,Related individual,0.9
+2021,85+,18,Family households,Other families,Unrelated individual,0.2
+2021,85+,18,Group households,,Group household member,0.9
+2021,85+,18,Lone person households,,Male lone person,9.1
+2021,85+,18,Lone person households,,Female lone person,24.7
+2021,85+,18,Non-private dwelling,,Usual resident of a non-private dwelling,22.8
+2021,Total,19,Family households,Couple families with children,"Husband, wife or partner",24.5
+2021,Total,19,Family households,Couple families with children,Child,23.1
+2021,Total,19,Family households,Couple families with children,Other related individual,0.7
+2021,Total,19,Family households,Couple families without children,"Husband, wife or partner",21.8
+2021,Total,19,Family households,Couple families without children,Other related individual,0.4
+2021,Total,19,Family households,One parent families,Male parent,0.9
+2021,Total,19,Family households,One parent families,Female parent,3.6
+2021,Total,19,Family households,One parent families,Child,6.8
+2021,Total,19,Family households,One parent families,Other related individual,0.5
+2021,Total,19,Family households,Other families,Related individual,1.0
+2021,Total,19,Family households,Other families,Unrelated individual,1.3
+2021,Total,19,Group households,,Group household member,3.6
+2021,Total,19,Lone person households,,Male lone person,4.5
+2021,Total,19,Lone person households,,Female lone person,5.6
+2021,Total,19,Non-private dwelling,,Usual resident of a non-private dwelling,1.8
