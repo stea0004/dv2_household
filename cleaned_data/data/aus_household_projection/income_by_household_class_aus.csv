@@ -1,0 +1,39 @@
+band_order,income_band,income_stated,household_class,households,pct_of_class_stated
+1,Negative/nil,True,Family,71343,1.2
+1,Negative/nil,True,Non-family,95101,3.7
+2,$1–$149,True,Family,27184,0.5
+2,$1–$149,True,Non-family,32637,1.3
+3,$150–$299,True,Family,29458,0.5
+3,$150–$299,True,Non-family,82521,3.2
+4,$300–$399,True,Family,33610,0.6
+4,$300–$399,True,Non-family,168747,6.5
+5,$400–$499,True,Family,104593,1.7
+5,$400–$499,True,Non-family,405808,15.6
+6,$500–$649,True,Family,118319,2.0
+6,$500–$649,True,Non-family,259347,10.0
+7,$650–$799,True,Family,358514,5.9
+7,$650–$799,True,Non-family,176796,6.8
+8,$800–$999,True,Family,327360,5.4
+8,$800–$999,True,Non-family,222085,8.6
+9,"$1,000–$1,249",True,Family,396677,6.6
+9,"$1,000–$1,249",True,Non-family,239892,9.2
+10,"$1,250–$1,499",True,Family,464662,7.7
+10,"$1,250–$1,499",True,Non-family,191480,7.4
+11,"$1,500–$1,749",True,Family,351821,5.8
+11,"$1,500–$1,749",True,Non-family,165338,6.4
+12,"$1,750–$1,999",True,Family,374670,6.2
+12,"$1,750–$1,999",True,Non-family,130683,5.0
+13,"$2,000–$2,499",True,Family,821065,13.6
+13,"$2,000–$2,499",True,Non-family,222654,8.6
+14,"$2,500–$2,999",True,Family,628512,10.4
+14,"$2,500–$2,999",True,Non-family,33759,1.3
+15,"$3,000–$3,499",True,Family,523915,8.7
+15,"$3,000–$3,499",True,Non-family,58418,2.3
+16,"$3,500–$3,999",True,Family,348953,5.8
+16,"$3,500–$3,999",True,Non-family,14746,0.6
+17,"$4,000 or more",True,Family,1058778,17.5
+17,"$4,000 or more",True,Non-family,93846,3.6
+18,Partial income stated,False,Family,428627,
+18,Partial income stated,False,Non-family,51842,
+19,All incomes not stated,False,Family,74565,
+19,All incomes not stated,False,Non-family,86874,

@@ -1,0 +1,7 @@
+type_order,household_type,household_class,households,pct,squares
+1,Couple without children,Family,2487803,26.8,27
+2,Couple with children,Family,2912510,31.4,31
+3,One-parent family,Family,1033394,11.1,11
+4,Other family,Family,108945,1.2,1
+5,Lone person,Non-family,2370742,25.6,26
+6,Group household,Non-family,361822,3.9,4

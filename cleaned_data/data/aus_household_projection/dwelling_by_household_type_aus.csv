@@ -1,0 +1,79 @@
+dwelling_order,dwelling_group,dwelling_structure,type_order,household_type,households,pct_of_type
+1,House,Separate house,1,Couple without children,1858947,74.7
+1,House,Separate house,2,Couple with children,2501157,85.9
+1,House,Separate house,3,One-parent family,792187,76.7
+1,House,Separate house,4,Other family,71633,65.7
+1,House,Separate house,5,Lone person,1291416,54.5
+1,House,Separate house,6,Group household,195246,54.0
+2,Semi-detached / townhouse,"Townhouse, one storey",1,Couple without children,138409,5.6
+2,Semi-detached / townhouse,"Townhouse, one storey",2,Couple with children,95742,3.3
+2,Semi-detached / townhouse,"Townhouse, one storey",3,One-parent family,67766,6.6
+2,Semi-detached / townhouse,"Townhouse, one storey",4,Other family,7633,7.0
+2,Semi-detached / townhouse,"Townhouse, one storey",5,Lone person,300673,12.7
+2,Semi-detached / townhouse,"Townhouse, one storey",6,Group household,26933,7.4
+3,Semi-detached / townhouse,"Townhouse, two or more storeys",1,Couple without children,130059,5.2
+3,Semi-detached / townhouse,"Townhouse, two or more storeys",2,Couple with children,136642,4.7
+3,Semi-detached / townhouse,"Townhouse, two or more storeys",3,One-parent family,70871,6.9
+3,Semi-detached / townhouse,"Townhouse, two or more storeys",4,Other family,7799,7.2
+3,Semi-detached / townhouse,"Townhouse, two or more storeys",5,Lone person,152445,6.4
+3,Semi-detached / townhouse,"Townhouse, two or more storeys",6,Group household,33883,9.4
+4,Flat or apartment,"Apartment, 1–2 storey block",1,Couple without children,75059,3.0
+4,Flat or apartment,"Apartment, 1–2 storey block",2,Couple with children,43888,1.5
+4,Flat or apartment,"Apartment, 1–2 storey block",3,One-parent family,32846,3.2
+4,Flat or apartment,"Apartment, 1–2 storey block",4,Other family,5316,4.9
+4,Flat or apartment,"Apartment, 1–2 storey block",5,Lone person,196638,8.3
+4,Flat or apartment,"Apartment, 1–2 storey block",6,Group household,22989,6.4
+5,Flat or apartment,"Apartment, 3 storey block",1,Couple without children,76252,3.1
+5,Flat or apartment,"Apartment, 3 storey block",2,Couple with children,40641,1.4
+5,Flat or apartment,"Apartment, 3 storey block",3,One-parent family,24954,2.4
+5,Flat or apartment,"Apartment, 3 storey block",4,Other family,5076,4.7
+5,Flat or apartment,"Apartment, 3 storey block",5,Lone person,135635,5.7
+5,Flat or apartment,"Apartment, 3 storey block",6,Group household,25006,6.9
+6,Flat or apartment,"Apartment, 4–8 storey block",1,Couple without children,102524,4.1
+6,Flat or apartment,"Apartment, 4–8 storey block",2,Couple with children,50416,1.7
+6,Flat or apartment,"Apartment, 4–8 storey block",3,One-parent family,23829,2.3
+6,Flat or apartment,"Apartment, 4–8 storey block",4,Other family,5411,5.0
+6,Flat or apartment,"Apartment, 4–8 storey block",5,Lone person,140113,5.9
+6,Flat or apartment,"Apartment, 4–8 storey block",6,Group household,26196,7.2
+7,Flat or apartment,"Apartment, 9+ storey block",1,Couple without children,84002,3.4
+7,Flat or apartment,"Apartment, 9+ storey block",2,Couple with children,32187,1.1
+7,Flat or apartment,"Apartment, 9+ storey block",3,One-parent family,14490,1.4
+7,Flat or apartment,"Apartment, 9+ storey block",4,Other family,5042,4.6
+7,Flat or apartment,"Apartment, 9+ storey block",5,Lone person,107641,4.5
+7,Flat or apartment,"Apartment, 9+ storey block",6,Group household,26580,7.3
+8,Flat or apartment,Flat attached to a house,1,Couple without children,3923,0.2
+8,Flat or apartment,Flat attached to a house,2,Couple with children,3795,0.1
+8,Flat or apartment,Flat attached to a house,3,One-parent family,1755,0.2
+8,Flat or apartment,Flat attached to a house,4,Other family,241,0.2
+8,Flat or apartment,Flat attached to a house,5,Lone person,5833,0.2
+8,Flat or apartment,Flat attached to a house,6,Group household,827,0.2
+9,Other dwelling,Caravan,1,Couple without children,4758,0.2
+9,Other dwelling,Caravan,2,Couple with children,828,0.0
+9,Other dwelling,Caravan,3,One-parent family,695,0.1
+9,Other dwelling,Caravan,4,Other family,107,0.1
+9,Other dwelling,Caravan,5,Lone person,11092,0.5
+9,Other dwelling,Caravan,6,Group household,563,0.2
+10,Other dwelling,"Cabin, houseboat",1,Couple without children,4009,0.2
+10,Other dwelling,"Cabin, houseboat",2,Couple with children,648,0.0
+10,Other dwelling,"Cabin, houseboat",3,One-parent family,859,0.1
+10,Other dwelling,"Cabin, houseboat",4,Other family,130,0.1
+10,Other dwelling,"Cabin, houseboat",5,Lone person,11011,0.5
+10,Other dwelling,"Cabin, houseboat",6,Group household,548,0.2
+11,Other dwelling,"Improvised home, tent, sleepers out",1,Couple without children,553,0.0
+11,Other dwelling,"Improvised home, tent, sleepers out",2,Couple with children,300,0.0
+11,Other dwelling,"Improvised home, tent, sleepers out",3,One-parent family,159,0.0
+11,Other dwelling,"Improvised home, tent, sleepers out",4,Other family,25,0.0
+11,Other dwelling,"Improvised home, tent, sleepers out",5,Lone person,1256,0.1
+11,Other dwelling,"Improvised home, tent, sleepers out",6,Group household,90,0.0
+12,Other dwelling,House or flat attached to a shop/office,1,Couple without children,4208,0.2
+12,Other dwelling,House or flat attached to a shop/office,2,Couple with children,2760,0.1
+12,Other dwelling,House or flat attached to a shop/office,3,One-parent family,1460,0.1
+12,Other dwelling,House or flat attached to a shop/office,4,Other family,310,0.3
+12,Other dwelling,House or flat attached to a shop/office,5,Lone person,6560,0.3
+12,Other dwelling,House or flat attached to a shop/office,6,Group household,1789,0.5
+13,Not stated,Dwelling structure not stated,1,Couple without children,5108,0.2
+13,Not stated,Dwelling structure not stated,2,Couple with children,3498,0.1
+13,Not stated,Dwelling structure not stated,3,One-parent family,1526,0.1
+13,Not stated,Dwelling structure not stated,4,Other family,226,0.2
+13,Not stated,Dwelling structure not stated,5,Lone person,10430,0.4
+13,Not stated,Dwelling structure not stated,6,Group household,1181,0.3
