@@ -1,0 +1,10 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":{
+        "text": "Where each type of household lives",
+        "subtitle": "Share of each household type in each type of dwelling from 2021 Census Data",
+        "subtitleFontStyle": "bold",
+        "subtitleFontSize": 12,
+        "anchor": "start",
+    }
+}
