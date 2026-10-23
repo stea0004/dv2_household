@@ -1,0 +1,16 @@
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Australia as 100 households",
+        "subtitle": "Each square is a 1% distribution of all types of households from the 2021 Census Data"
+        ,
+        "subtitleFontSize": 12,
+        "anchor": "start"
+    },
+    "data": {
+        "url": "data/dwelling_by_household_type_aus.csv"
+        
+    },
+
+
+    "transform":{
+    }
