@@ -1,10 +1,102 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title":{
+    "title": {
         "text": "Where each type of household lives",
-        "subtitle": "Share of each household type in each type of dwelling from 2021 Census Data",
-        "subtitleFontStyle": "bold",
+        "subtitle": "Share of each household type in each type of dwelling from 2021 Census Data"
+        ,
         "subtitleFontSize": 12,
-        "anchor": "start",
+        "anchor": "start"
+    },
+    "data": {
+        "url": "data/dwelling_by_household_type_aus.csv"
+        
+    },
+    "transform": [
+        {
+            "filter": "datum.dwelling_group != 'Not stated' && datum.dwelling_group != 'Other dwelling'" 
+        },
+        {
+            "aggregate": [{ "op": "sum", "field": "pct_of_type", "as": "pct"}],
+            "groupby": ["dwelling_group", "household_type", "type_order"]
+
+        },
+        {
+            "calculate": "format(datum.pct, '.0f') + '%'", "as": "pct_label"
+        }
+    ],
+
+    "width": 400,
+    "height": 300,
+    "encoding": {
+        "x": {
+            "field": "household_type",
+            "type": "nominal",
+            "sort": {"field": "type_order", "op": "min"},
+            "title": "Household Type",
+            "axis": {
+                "labelAngle": 0,
+                "labelFontSize": 10,
+                "labelLimit": 120,
+                "orient": "bottom",
+                "domain": false,
+                "ticks": false,
+                "labelExpr": "split(datum.label, ' ')",
+                "labelPadding": 6
+            }
+
+        },
+        "y": {
+            "field": "dwelling_group",
+            "type": "nominal",
+            "sort": ["House", "semi-detached / townhouse", "Flat or apartment"],
+            "title": null,
+            "axis": {"domain": false, "ticks": false, "labelLimit": 260
+        
+        }
+        }
+
+    },
+
+        "layer": [
+            {
+                "mark": {
+                    "type": "rect",
+                    "tooltip": true
+                },
+                "encoding": {
+                    "color": {
+                        "field": "pct",
+                        "type": "quantitative",
+                        "scale": {"scheme": "blues", "domain": [0, 100]},
+                        "legend": {
+                            "title": "Percentage of household type",
+                            "orient": "bottom",
+                            "gradientLength": 200,
+                            "offset": 16,
+                            "titleLimit": 200
+                        }
+                    },
+                    "tooltip": [
+                        {"field": "household_type", "type": "nominal", "title": "Household Type" },
+                        {"field": "dwelling_group", "type": "nominal", "title": "Dwelling Type" },
+                        {"field": "pct", "type": "quantitative", "title": "% share", "format": ".1f"}
+                    ]
+                }
+            },
+            {
+                "mark":{ "type": "text", "fontSize": 12}, 
+                "encoding": {
+                    "text":{ "field": "pct_label"},
+                    "color": {
+                        "condition": { "test": "datum.pct > 50", "value": "white"}
+                    }
+                }
+            }
+        ],
+        "config": { "view": {"stroke": null}
+    
     }
+
 }
+
+
