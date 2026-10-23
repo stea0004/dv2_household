@@ -1,16 +1,74 @@
-"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-        "text": "Australia as 100 households",
-        "subtitle": "Each square is a 1% distribution of all types of households from the 2021 Census Data"
-        ,
-        "subtitleFontSize": 12,
-        "anchor": "start"
+{
+    
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "Australia as 100 households",
+            "subtitle": "Each square is a 1% distribution of all types of households from the 2021 Census Data"
+            ,
+            "subtitleFontSize": 12,
+            "anchor": "start"
+        },
+        "data": {
+            "url": "data/household_type_aus.csv"
+            
+        },
+
+
+    "transform":[
+        {
+            "window": [{"op": "sum", "field": "squares", "as": "end"}],
+            "sort":[{"field": "type_order", "order": "ascending"}],
+            "frame": [null, 0]
+        },
+
+        {"calculate": "datum.end - datum.squares", "as": "start"},
+        {"calculate": "sequence(datum.start, datum.end)", "as": "cell"},
+        {"flatten": ["cell"]},
+        {"calculate": "datum.cell % 10", "as": "col"},
+        {"calculate": "floor(datum.cell / 10)", "as": "row"}
+    ],
+
+    "width": 300,
+    "height": 300,
+    "mark": {"type": "square", "size": 520, "stroke": "white", "strokeWidth": 1, "opacity": 1},
+    "encoding": {
+        "x":{ "field": "col", "type": "ordinal", "axis": null},
+        "y":{ "field": "row", "type": "ordinal", "axis": null},
+        "color": {
+            "field": "household_type",
+            "type": "nominal",
+            "sort": {"field": "type_order"},
+            "scale":{
+                "domain":[
+                "Couple without children",
+                "Couple with children",
+                "One-parent family",
+                "Other family",
+                "Group household",
+                "Lone person"
+                ],
+                "range": ["#5b8fc7", "#1f4e79", "#9cc3e6", "#c9dcec", "#e07b39", "#a389c9"]
+            },
+            "legend": {
+                "title": null,
+                "orient": "right",
+                "labelFontSize": 10,
+                "symbolSize": 100,
+                "symbolType": "square",
+                "labelLimit": 260
+            }
+
+        },
+        "tooltip": [
+            {"field": "household_type", "type": "nominal", "title": "Household Type" },
+            {"field": "pct", "type": "quantitative", "title": "% share", "format": ".1f"}
+        ]
     },
-    "data": {
-        "url": "data/dwelling_by_household_type_aus.csv"
+    "config": {"view": {"stroke": null}}
+}
+
+
+
+
         
-    },
-
-
-    "transform":{
-    }
+    
