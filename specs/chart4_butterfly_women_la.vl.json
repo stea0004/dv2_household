@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-        "text": "The share of women that live alone",
+        "text": "Living alone is mostly dominated by women in older age groups",
         "subtitle": "Women and men living alone represented as shares of all people in each age group, 2021 Census Data",
         "subtitleFontSize": 12,
         "anchor": "start"
@@ -9,10 +9,10 @@
     "data": {"url": "data/living_arrangements_by_age.csv"},
     "transform": [
         {"filter": "datum.census_year == 2021"},
-        {"filter": {"field": "living_arrangement", "oneOf": ["lone female person", "lone male person"]}},
+        {"filter": {"field": "living_arrangement", "oneOf": ["Female lone person", "Male lone person"]}},
         {"filter": "datum.age_group != 'Total' && datum.age_order >= 4"},
-        {"calculate": "datum.living_arrangement == 'lone female person' ? 'Women' : 'Men'", "as": "gender"},
-        {"calculate": "datum.gender == 'Women' ? datum.pct : -datum.pct", "as": "signed_pct"}
+        {"calculate": "datum.living_arrangement == 'Female lone person' ? 'Women' : 'Men'", "as": "gender"},
+        {"calculate": "datum.gender == 'Women' ? -datum.pct : datum.pct", "as": "signed_pct"}
     ],
 
     "width": 400,
@@ -28,5 +28,64 @@
             "title": "Age group",
             "axis": {"domain": false, "ticks": false}
         }
+
+    },
+    "layer":[
+        {
+            "mark": {"type": "bar", "cornerRadius": 3, "opacity": 1},
+            "encoding": {
+                "x": {
+                    "field": "signed_pct",
+                    "type": "quantitative",
+                    "title": "% of people in the age group",
+                    "scale": {"domain": [-25, 25], "nice": false},
+                    "axis":{
+                        "labelExpr": "abs(datum.value) + '%'",
+                        "grid": true,
+                        "gridColor":"beige",
+                        "titleFontSize": 12
+                    }
+                },
+                "color": {
+                   
+                        "field": "gender",
+                        "type": "nominal",
+                        "scale": {"domain": ["Women", "Men"], "range": ["#b5577a", "#4a7c8c"]},
+                        "legend": null
+                    },
+
+                    "tooltip":[
+
+                        {"field": "age_group", "type": "ordinal", "title": "age group"},
+                        {"field": "gender", "type": "nominal", "title": "gender"},
+                        {"field": "pct", "type": "quantitative", "title": "% of age group", "format": ".1f"}
+                    ]
+
+                }
+            },
+
+            {
+                "data": {
+                    "values": [{"x": -12.5, "label": "<- women living alone"}, {"x": 12.5, "label": "men living alone ->"}]
+                },
+                "mark": {"type": "text", "fontStyle": "italic", "color": "#444444"},
+                "encoding": {
+                    "x": {"field": "x", "type": "quantitative"},
+                    "y": {"datum": "15-19"},
+                    "text": {"field": "label", "type": "nominal"}
+                }
+            }
+
+        ],
+        "config": {"view": {"stroke": null}}
+    }
+
+
+
+
+                
+            
+
+
 
 
