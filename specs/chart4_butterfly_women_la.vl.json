@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "The share of women that live alone",
+        "subtitle": "Women and men living alone represented as shares of all people in each age group, 2021 Census Data",
+        "subtitleFontSize": 12,
+        "anchor": "start"
+    },
+    "data": {"url": "data/living_arrangements_by_age.csv"},
+    "transform": [
+        {"filter": "datum.census_year == 2021"},
+        {"filter": {"field": "living_arrangement", "oneOf": ["lone female person", "lone male person"]}},
+        {"filter": "datum.age_group != 'Total' && datum.age_order >= 4"},
+        {"calculate": "datum.living_arrangement == 'lone female person' ? 'Women' : 'Men'", "as": "gender"},
+        {"calculate": "datum.gender == 'Women' ? datum.pct : -datum.pct", "as": "signed_pct"}
+    ],
+
+    "width": 400,
+    "height": 300,
+    "encoding": {
+        "y": {
+            "field": "age_group",
+            "type": "ordinal",
+            "sort":[
+                "85+", "80-84", "75-79", "70-74", "65-69", "60-64", "55-59", "50-54", "45-49", "40-44",
+        "35-39", "30-34", "25-29", "20-24", "15-19"
+            ],
+            "title": "Age group",
+            "axis": {"domain": false, "ticks": false}
+        }
+
+
