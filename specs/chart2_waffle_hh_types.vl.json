@@ -9,7 +9,7 @@
             "anchor": "start"
         },
         "data": {
-            "url": "data/household_type_aus.csv"
+            "url": "data/household_types_aus.csv"
             
         },
 

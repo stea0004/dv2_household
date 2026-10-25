@@ -1,0 +1,96 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "The share of people that live alone",
+            "subtitle": "Share of people in each age group living alone, 2006 vs 2021 Census Data",
+            "subtitleFontSize": 12,
+            "anchor": "start"
+        },
+
+        "data": {
+            "url": "data/living_arrangements_summary.csv",
+            "format": {"parse": {"census_year": "number", "pct": "number", "age_order": "number"}}
+        },
+        "transform": [
+            {"filter": "datum.age_group != 'Total' && datum.age_order >= 4"},
+            {"filter": "datum.census_year == 2006 || datum.census_year == 2021"}
+        ],
+
+        "width": 400,
+        "height": 300,
+        "encoding": {
+            "y": {
+                "field": "age_group",
+                "type": "ordinal",
+                "sort":[
+                    "85+", "80-84", "75-79", "70-74", "65-69", "60-64", "55-59", "50-54", 
+                    "45-49", "40-44", "35-39", "30-34", "25-29", "20-24", "15-19"
+                ],
+                "title": "Age group",
+                "axis": {"domain": false, "ticks": false,
+                "grid": true, "gridColor":"beige"
+            }
+        }
+
+    },
+
+        "layer":[
+            {
+                "transform": [
+                    {"pivot": "census_year", "value": "pct", "groupby": ["age_group", "age_order"]},
+                    {"calculate": "datum['2006']", "as": "y2006"},
+                    {"calculate": "datum['2021']", "as": "y2021"}
+                ],
+                "mark": {"type": "rule", "color": "#bbbbbb", "strokeWidth": 3},
+                "encoding": {
+                    "x": {"field": "y2006", "type": "quantitative", "title": "% of people living alone"},
+                    "x2": {"field": "y2021"
+                }
+                }
+            },
+
+            {
+                "mark": {"type": "circle", "size": 110, "opacity": 1},
+                "encoding": {
+                    "x": {"field": "pct", "type": "quantitative", "title": "% of people living alone"
+                },
+
+                
+                "color": {
+                    "field": "census_year",
+                     "type": "ordinal",
+                     "scale": {
+                    "domain": [2006,2021], "range": ["#9cc3e6", "#1f4e79"]
+                           },
+                        "legend": {
+                            "title": "census year", "orient": "bottom", "direction": "horizontal"
+                        }
+                    },
+
+                        "tooltip": [
+                            {"field": "age_group", "type": "ordinal", "title": "Age group"},
+                            {"field": "census_year", "type": "ordinal", "title": "Census"},
+                            {"field": "pct", "type": "quantitative", "title": "%living alone", "format": ".1f"}
+                        ]
+                    }
+            },
+
+            {
+
+            "transform": [{"filter": "datum.age_group == '80-84'&& datum.census_year == 2006"}],
+            "mark":{
+            "type": "text",
+            "align": "left",
+            "dx": 10,
+            "fontSize": 11,
+            "fontStyle": "italic",
+            "color": "#444444"
+            },
+            "encoding": {"x": {"field": "pct", "type": "quantitative"}, "text": {"value": "36 -> 30"}}
+            }
+            
+        ],
+
+        "config": {"view": {"stroke": null}}
+
+    }
