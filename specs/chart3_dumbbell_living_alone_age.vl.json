@@ -12,6 +12,7 @@
             "format": {"parse": {"census_year": "number", "pct": "number", "age_order": "number"}}
         },
         "transform": [
+            {"filter": "datum.arrangement == 'Living alone'"},
             {"filter": "datum.age_group != 'Total' && datum.age_order >= 4"},
             {"filter": "datum.census_year == 2006 || datum.census_year == 2021"}
         ],
