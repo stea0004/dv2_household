@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "single-income households sit lower on the income scale than dual-income households",
+        "subtitle": "weekly household income, family against non-family households, 2021 Census Data",
+        "anchor": "start"
+
+    },
+
+    "data": {"url": "data/income_by_household_class_aus.csv"},
+    "transform": [
+        {"filter": "datum.band_order <=17"}
+    ],
+    "width":520,
+    "height":280,
+    "encoding"{
+        "x":{
+            "field": "income_band",
+            "type": "ordinal", 
+            "sort": [
+                "Negative/nil", "$1–$149", "$150–$299", "$300–$399", "$400–$499", "$500–$649", "$650–$799",
+        "$800–$999", "$1,000–$1,249", "$1,250–$1,499", "$1,500–$1,749", "$1,750–$1,999",
+        "$2,000–$2,499", "$2,500–$2,999", "$3,000–$3,499", "$3,500–$3,999", "$4,000 or more"
+            ],
+
+            "title": "weekly household income",
+            "axis": {"labelAngle": -45, "domain": false}
+        },
+
+        "y": {
+            "field": "household_class",
+            "type": "nominal",
+            "scale": {
+                "domain": ["family", "non-family"], "range": ["#5b8fc7", "#e07b39"]},
+                "legend": {
+                    "title": null,
+                    "orient": "top",
+                    "labelExpr": "datum.label == 'non-family' ? 'lone person or group' : 'family' " ,
+                    "labelLimit": 260, 
+                    "direction": "horizontal"
+                }
+    
+            }
+        },
+
+        "layer": [
+            {
+                "mark": {
+                    "type": "line",
+                    "stroleWidth": 2.5,
+                    "point":{"size":40}
+                },
+                "encoding": {
+                    "tooltip": [
+                        {"field": "income_band", "type": "ordinal", "title": "weekly income"},
+                        {"field": "household_class", "type": "nominal", "title": "type"},
+                        {"field": "pct_of_class_stated", "type": "quantitative", "title": "% of households", "format": ".1f"}
+
+                    ]
+                }
+            },
+
+            {
+                "transform": [{"filter": "datum.household_class == 'non-family' && datum.income_band == '$400-$499"}],
+                
+
+                
+        ]
+
+
+    }
+
+
+}
