@@ -13,7 +13,7 @@
     ],
     "width":520,
     "height":280,
-    "encoding"{
+    "encoding":{
         "x":{
             "field": "income_band",
             "type": "ordinal", 
@@ -27,7 +27,15 @@
             "axis": {"labelAngle": -45, "domain": false}
         },
 
+
         "y": {
+            "field": "pct_of_class_stated",
+            "type": "quantitative",
+            "title": "% of households",
+            "axis": {"grid": true, "gridColor": "eeeeee", "domain": false}
+        },
+
+        "color": {
             "field": "household_class",
             "type": "nominal",
             "scale": {
@@ -47,7 +55,7 @@
             {
                 "mark": {
                     "type": "line",
-                    "stroleWidth": 2.5,
+                    "strokeWidth": 2.5,
                     "point":{"size":40}
                 },
                 "encoding": {
@@ -62,13 +70,17 @@
 
             {
                 "transform": [{"filter": "datum.household_class == 'non-family' && datum.income_band == '$400-$499"}],
-                
+                "mark": {
+                    "type": "text", "align": "left", "dx": 10, "dy": 0, "fontSize": 11, "fontStyle": "italic"
+                },
 
+                "encoding": {
+                    "text": {"value": "non-family households peak at $400-$499 a week"},
+                    "color":{"value": "#444444"}
+                }
+            }
                 
         ]
 
-
     }
 
-
-}
