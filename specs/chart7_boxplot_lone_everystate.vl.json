@@ -33,19 +33,33 @@
                     "sort": ["Tas", "SA", "NSW", "WA", "Vic", "Qld", "ACT", "NT"],
                     "title": null,
                     "axis": {"labelAngle": 0, "domain": false, "ticks": false}
-                }
-            }
-        },
+                },
 
+                   "y": {
+                    "field": "lone_pct",
+                    "type": "quantitative",
+                    "scale": {"domain": [0,62]}
+                }
+
+
+            }
+
+        },
         {
             "data": {"values": [{"aus": 25.6}]},
-            "mark": {"type": "rule", "strokeDash": [4,4, "color": "#444444"},
+            "mark": {"type": "rule", "strokeDash": [4,4], "color": "#444444"},
             "encoding": {"y": {"field": "aus", "type": "quantitative"}}
         },
 
         {
-            "data": {"values": [{"aus": 25.6}]},
-            "mark": {"type": "text", "align": "left", "dx":6, "dy": 0, "fontSize": 10, "fontStyle": "italic", "color": "#4444444" },
+            "data": {"values": [{"aus": 25.6, "label": "Australia 25.6%"}]},
+            "mark": {"type": "text", 
+            "align": "left", 
+            "dx":6, 
+            "dy": 0, 
+            "fontSize": 10, 
+            "fontStyle": "italic", 
+            "color": "#444444" },
             "encoding":{
                 "y": {"field": "aus", "type": "quantitative"},
                 "x": {"value": 420},
@@ -54,5 +68,5 @@
             }
         }
     ],
-
+    "config": {"view":{"stroke": null}}
 }
