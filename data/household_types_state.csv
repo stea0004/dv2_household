@@ -1,0 +1,49 @@
+state_code,state,state_name,type_order,household_type,households,pct_of_state
+1,NSW,New South Wales,1,Couple without children,763210,26.3
+1,NSW,New South Wales,2,Couple with children,942246,32.5
+1,NSW,New South Wales,3,One-parent family,325593,11.2
+1,NSW,New South Wales,4,Other family,34063,1.2
+1,NSW,New South Wales,5,Lone person,723716,25.0
+1,NSW,New South Wales,6,Group household,111646,3.8
+2,Vic,Victoria,1,Couple without children,617485,25.8
+2,Vic,Victoria,2,Couple with children,775064,32.4
+2,Vic,Victoria,3,One-parent family,254710,10.7
+2,Vic,Victoria,4,Other family,28870,1.2
+2,Vic,Victoria,5,Lone person,619542,25.9
+2,Vic,Victoria,6,Group household,94559,4.0
+3,Qld,Queensland,1,Couple without children,526638,28.2
+3,Qld,Queensland,2,Couple with children,557290,29.8
+3,Qld,Queensland,3,One-parent family,221718,11.9
+3,Qld,Queensland,4,Other family,22225,1.2
+3,Qld,Queensland,5,Lone person,461009,24.7
+3,Qld,Queensland,6,Group household,80576,4.3
+4,SA,South Australia,1,Couple without children,190558,27.6
+4,SA,South Australia,2,Couple with children,194316,28.1
+4,SA,South Australia,3,One-parent family,77808,11.3
+4,SA,South Australia,4,Other family,7821,1.1
+4,SA,South Australia,5,Lone person,197272,28.5
+4,SA,South Australia,6,Group household,23542,3.4
+5,WA,Western Australia,1,Couple without children,261958,27.2
+5,WA,Western Australia,2,Couple with children,311151,32.3
+5,WA,Western Australia,3,One-parent family,102909,10.7
+5,WA,Western Australia,4,Other family,10932,1.1
+5,WA,Western Australia,5,Lone person,245193,25.4
+5,WA,Western Australia,6,Group household,32591,3.4
+6,Tas,Tasmania,1,Couple without children,65024,29.8
+6,Tas,Tasmania,2,Couple with children,55040,25.2
+6,Tas,Tasmania,3,One-parent family,25430,11.6
+6,Tas,Tasmania,4,Other family,2128,1.0
+6,Tas,Tasmania,5,Lone person,63360,29.0
+6,Tas,Tasmania,6,Group household,7429,3.4
+7,NT,Northern Territory,1,Couple without children,17283,24.5
+7,NT,Northern Territory,2,Couple with children,23087,32.7
+7,NT,Northern Territory,3,One-parent family,8756,12.4
+7,NT,Northern Territory,4,Other family,1113,1.6
+7,NT,Northern Territory,5,Lone person,16814,23.8
+7,NT,Northern Territory,6,Group household,3605,5.1
+8,ACT,Australian Capital Territory,1,Couple without children,45194,26.8
+8,ACT,Australian Capital Territory,2,Couple with children,53911,32.0
+8,ACT,Australian Capital Territory,3,One-parent family,16336,9.7
+8,ACT,Australian Capital Territory,4,Other family,1768,1.0
+8,ACT,Australian Capital Territory,5,Lone person,43338,25.7
+8,ACT,Australian Capital Territory,6,Group household,7850,4.7
