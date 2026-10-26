@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": {
+            "text": "For every state, living alone varies by area",
+            "subtitle": "The spread of lone-person household shares across statistical area 2 for every state, 2021 Census Data",
+            "subtitleFontSize": 12,
+            "anchor": "start"
+        },
+
+        "data": {"url": "data/sa2_households.csv", "format": {"parse": {"sa2_code": "string"}}},
+        "width": 420,
+        "height": 300, 
+        "layer": [
+            
+        {
+
+            
+            "mark": {
+                "type": "boxplot",
+                "extent": 1.5,
+                "size": 26, 
+                "color": "#e07b39",
+                "median": {
+                    "color": "white", 
+                    "strokeWidth": 2
+                },
+                "outliers":{"size": 12, "opacity": 0.5},
+                "rule": {"color": "#999999"}
+            },
+        }
+
+
+            "encoding": {
+                "x": {
+                    "field": "state",
+                    
+                }
+
+            }
+        ]
+
+
+}
