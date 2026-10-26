@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Most households contain one or two people",
+    "subtitle": "Households by number of usual residents, 2021 Census",
+    "anchor": "start"
+
+},
+
+"data": {"url":"data/household_size_aus.csv"},
+"width": 420,
+"height": 280,
+"encoding": {
+    "x": {
+        "field":"household_size",
+        "type": "ordinal",
+        "sort": {"field": "size_order", "op": "min"},
+        "title": "people living in the household",
+        "axis": {
+            "labelAngle": 0,
+            "domain": false,
+            "ticks": false
+        }
+    }
+},
+"layer": [
+    {
+        "mark":{"type": "bar", "width":{"band": 1}},
+
+        "encoding": {
+            "y":{
+                "field": "pct_of_all", 
+                "type": "quantitative",
+                "stack": "zero",
+                "title": "% of all households",
+                "axis": {
+                    "grid": true,
+                    "gridColor":"aliceblue",
+                    "domain": false
+                }
+            },
+            "color":{
+                "field": "household_class",
+                "type": "nominal",
+                "scale": {"domain": ["Family", "Non-family"], "range": ["#5b8fc7","#e07b39"]},
+                "legend": {
+                    "title": null,
+                    "orient": "top-right",
+                    "labelExpr": "datum.label == 'Non-family' ? 'Lone person or group' : 'Family'",
+                    "labelLimit": 260
+                }
+
+    
+            },
+
+            "order": {"field": "household_class", "sort": "ascending"},
+            "tooltip": [
+                {"field": "household_size", "type": "ordinal", "title": "Household size"},
+                {"field": "household_class", "type": "nominal", "title": "Type"},
+                {"field": "households", "type": "quantitative", "title": "Households", "format": ","},
+                {"field": "pct_of_all", "type": "quantitative", "title": "% of all households", "format": ".1f"}
+            ]
+        }
+    },
+
+    {
+        "transform":[
+
+            {
+                "aggregate": [{ "op": "sum", "field": "pct_of_all", "as": "total_pct"}],
+                "groupby": ["household_size", "size_order"]
+            }
+        ],
+
+        "mark": {"type": "text", "dy": -8, "fontSize": 11},
+        "encoding": {
+            "y": {
+                "field": "total_pct", "type": "quantitative"
+            },
+            "text": { "field": "total_pct", "type": "quantitative", "format": ".0f"}
+
+        }
+
+    } 
+],
+"config": {"view": {"stroke":null}}
+}
+
+
+
+
+
+
