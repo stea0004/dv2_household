@@ -10,11 +10,9 @@
         "data": {"url": "data/sa2_households.csv", "format": {"parse": {"sa2_code": "string"}}},
         "width": 420,
         "height": 300, 
-        "layer": [
+        "layer":[
             
         {
-
-            
             "mark": {
                 "type": "boxplot",
                 "extent": 1.5,
@@ -27,17 +25,34 @@
                 "outliers":{"size": 12, "opacity": 0.5},
                 "rule": {"color": "#999999"}
             },
-        }
-
-
+    
             "encoding": {
                 "x": {
                     "field": "state",
-                    
+                    "type": "nominal",
+                    "sort": ["Tas", "SA", "NSW", "WA", "Vic", "Qld", "ACT", "NT"],
+                    "title": null,
+                    "axis": {"labelAngle": 0, "domain": false, "ticks": false}
                 }
+            }
+        },
+
+        {
+            "data": {"values": [{"aus": 25.6}]},
+            "mark": {"type": "rule", "strokeDash": [4,4, "color": "#444444"},
+            "encoding": {"y": {"field": "aus", "type": "quantitative"}}
+        },
+
+        {
+            "data": {"values": [{"aus": 25.6}]},
+            "mark": {"type": "text", "align": "left", "dx":6, "dy": 0, "fontSize": 10, "fontStyle": "italic", "color": "#4444444" },
+            "encoding":{
+                "y": {"field": "aus", "type": "quantitative"},
+                "x": {"value": 420},
+                "text": {"field": "label"}
 
             }
-        ]
-
+        }
+    ],
 
 }
