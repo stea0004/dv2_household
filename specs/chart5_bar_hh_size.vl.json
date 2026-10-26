@@ -25,7 +25,7 @@
 },
 "layer": [
     {
-        "mark":{"type": "bar", "width":{"band": 1}},
+        "mark":{"type": "bar", "width":{"band": 0.85}},
 
         "encoding": {
             "y":{
@@ -45,7 +45,8 @@
                 "scale": {"domain": ["Family", "Non-family"], "range": ["#5b8fc7","#e07b39"]},
                 "legend": {
                     "title": null,
-                    "orient": "top-right",
+                    "orient": "top",
+                    "direction": "horizontal",
                     "labelExpr": "datum.label == 'Non-family' ? 'Lone person or group' : 'Family'",
                     "labelLimit": 260
                 }
@@ -64,11 +65,14 @@
     },
 
     {
-        "transform":[
-
+        "transform": [
             {
                 "aggregate": [{ "op": "sum", "field": "pct_of_all", "as": "total_pct"}],
                 "groupby": ["household_size", "size_order"]
+            },
+            {
+                "calculate": "format(datum.total_pct, '.0f') + '%'",
+                "as": "total_label"
             }
         ],
 
@@ -77,8 +81,7 @@
             "y": {
                 "field": "total_pct", "type": "quantitative"
             },
-            "text": { "field": "total_pct", "type": "quantitative", "format": ".0f"}
-
+            "text": {"field": "total_label", "type": "nominal"}
         }
 
     } 
