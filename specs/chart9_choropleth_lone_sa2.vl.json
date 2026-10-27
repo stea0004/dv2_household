@@ -1,0 +1,77 @@
+{
+     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Where Australians Live Alone",
+    "subtitle": "Lone-person households, by SA2 (suburb-sized area), 2021 Census Data",
+    "anchor": "start"
+  },
+  "params": [
+    {
+      "name": "area",
+      "value": "Australia",
+      "bind": {
+        "input": "select",
+        "name": "Show: ",
+        "options": [
+          "Australia", "Greater Sydney", "Greater Melbourne", "Greater Brisbane", "Greater Adelaide",
+          "Greater Perth", "Greater Hobart", "Greater Darwin", "Australian Capital Territory"
+        ]
+      }
+    }
+],
+
+"width": 500,
+"height":420,
+"projection": {"type":"conicEqualArea", "parallels": [-18,-36], "rotate": [-132,0]},
+"data": {
+    "url": "data/SA2_2021_AUST_GDA2020.json",
+    "format": {"type": "topojson", "feature": "SA2_2021_AUST_GDA2020"}
+},
+"transform": [
+    {"filter": "area == 'Australia' || datum.properties.GCC_NAME21 == area"},
+    {
+        "lookup": "properties.SA2_CODE21",
+        "from": {
+            "data": {"url": "data/sa2_households.csv", "format": {"parse":{"sa2_code": "string"}}},
+            "key": "sa2_code",
+            "fields": ["lone_pct", "lone_households", "total_households"]
+        }
+    }
+],
+
+"layer": [
+    {
+        "mark": {"type": "geoshape", "fill":"grey", "stroke": "white", "strokeWidth":0.2},
+        "encoding": {
+            "tooltip": [
+                {"field": "properties.SA2_NAME21", "type": "nominal", "title": "AREA"}
+            ]
+        }
+    },
+
+
+    {
+        "transform": [{"filter": "isValid(datum.lone_pct)"}],
+        "mark":{"type": "geoshape", "stroke": "white", "strokeWidth": 0.2},
+        "encoding": {
+            "color":{
+                "field": "lone_pct",
+                "type": "quantitative",
+                "title": "% lone-person households",
+                "scale": {"scheme": "oranges", "domain": [10,45], "clamp": true},
+                "legend": {"orient": "bottom", "direction": "horizontal", "gradientLength": 220, "titleLimit": 300}
+            },
+            "tooltip": [
+                {"field": "properties.SA2_NAME21", "type": "nominal", "title": "area"},
+                {"field": "lone_pct", "type": "quantitative", "title": "% living alone", "format": ".1f"},
+                {"field": "lone_households", "type": "quantitative", "title": "Lone_person households", "format": ","},
+                {"field": "total_households", "type": "quantitative", "title": "All households", "format": ","}
+                
+            ]
+        }
+    }
+
+],
+"config": {"view": {"stroke": null}}
+
+}
