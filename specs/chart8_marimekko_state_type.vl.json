@@ -90,16 +90,29 @@
                 {"field": "households", "type": "quantitative", "title": "Households", "format": ","}
                 ]
                 }
-
-
-
             },
 
-            
+            {
+                "transform": [{"filter": "datum.type_order == 1 && datum.x1 - datum.x0 > 4 "}],
+                "mark": {
+                    "type": "text",
+                    "dy": -8,
+                    "fontSize": 11,
+                    "fontWeight": "bold"
+                },
+
+                "encoding": {
+                    "x":  {"field": "x_mid", "type": "quantitative"},
+                    "y": {"field": "y_mid", "type": "quantitative"},
+                    "text": {"field": "pct_of_state", "type": "quantitative", "format": ".0f"}
+                }
+            }
+
         }
+        
+    ],
 
-
-    ]
+    "config": {"view": {"stroke": null}}
 
 
 
