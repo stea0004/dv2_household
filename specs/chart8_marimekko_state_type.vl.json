@@ -1,0 +1,62 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The household mix in each state",
+    "subtitle": [
+      "Column width = state's share of all households; column height = mix of household types, 2021 Census Data",
+      "The three narrow columns on the right are Tas, NT and ACT"
+    ],
+    "anchor": "start"
+
+
+
+    },
+
+    "data":{"url": "data/household_types_state.csv"},
+    "transform": [
+
+        {"joinaggregate": [{"op": "sum", "field": "householda", "as": "state_total"}], "groupby": ["state"]},
+        {:"joinaggregate": [{"op": "sum"m "field": "households", "as": "aus_total"}]},
+
+        {
+            "window": [{"op": "sum", "field":"households", "as": "cum_in_states"}],
+            "groupby": ["state"],
+            "sort": [{"field": "type_order"}],
+            "frame": [null,0]
+        },
+
+        {"calculate": "(datum.cum_in_state - datum.households) / datum.state_total * 100", "as": "y0"},
+        {"calculate": "datum.cum_in_state / datum.state_total * 100", "as": "y1"},
+
+        {
+            "stack": "households",
+            "groupby": [],
+            "sort":[{"field":"state_code"}, {"field": "type_order"}],
+            "as":["s0","s1"]
+        },
+
+        {
+            "joinaggregate": [{"op": "min", "field": "s0", "as": "x_start"}, {"op":"max", "field": "s1", "as": "x_end"}],
+
+        },
+
+
+            {"calculate": "datum.x_start / datum.aus_total * 100", "as": "x0"},
+            {"calculate": "datum.x_end / datum.aus_total * 100", "as": "x1"},
+            {"calculate": "(datum.x0 + datum.x1) / 2", "as": "x_mid"},
+            {"calculate": "(datum.y0 + datum.y1) / 2", "as": "y_mid"}
+    ],
+
+
+    "width": 520,
+    "height": 320,
+    "layer": [
+
+        
+    ]
+
+
+
+
+
+}
