@@ -15,11 +15,11 @@
     "data":{"url": "data/household_types_state.csv"},
     "transform": [
 
-        {"joinaggregate": [{"op": "sum", "field": "householda", "as": "state_total"}], "groupby": ["state"]},
-        {:"joinaggregate": [{"op": "sum"m "field": "households", "as": "aus_total"}]},
+        {"joinaggregate": [{"op": "sum", "field": "households", "as": "state_total"}], "groupby": ["state"]},
+        {"joinaggregate": [{"op": "sum", "field": "households", "as": "aus_total"}]},
 
         {
-            "window": [{"op": "sum", "field":"households", "as": "cum_in_states"}],
+            "window": [{"op": "sum", "field":"households", "as": "cum_in_state"}],
             "groupby": ["state"],
             "sort": [{"field": "type_order"}],
             "frame": [null,0]
@@ -36,8 +36,10 @@
         },
 
         {
-            "joinaggregate": [{"op": "min", "field": "s0", "as": "x_start"}, {"op":"max", "field": "s1", "as": "x_end"}],
+            "joinaggregate": [{"op": "min", "field": "s0", "as": "x_start"}, 
+            {"op":"max", "field": "s1", "as": "x_end"}],
 
+            "groupby": ["state"]
         },
 
 
@@ -51,28 +53,30 @@
     "width": 520,
     "height": 320,
     "layer": [
-
         {
 
             "mark":{"type": "rect", "stroke": "white", "strokeWidth": 1},
             "encoding":{
-
-                "x": {"field": "x0", "type": "quantitative", "scale": "domain":[0,100], "axis": null},
+                "x": {"field": "x0", "type": "quantitative", "scale": {"domain":[0,100]},
+                "axis": null},
                 "x2": {"field": "x1"},
                 "y":{
 
                     "field":"y0",
                     "type": "quantitative",
-                    "scale":{
-                        "domain": [0,100]
-                    },
-                    "title": "% of state households",
-                    "axis": {
+                    "scale":{"domain": [0,100]
+                },
+
+                "title": "% of state households",
+                "axis": {
                         "domain": false,
                         "ticks": false
-                    },
 
-                "y2": {"fields": "y1"},
+                }
+                },
+
+
+                "y2": {"field": "y1"},
                 "color": {
                     "field": "household_type",
                     "type": "nominal",
@@ -81,7 +85,7 @@
                          "range": ["#1f4e79", "#5b8fc7", "#9cc3e6", "#c9dcec", "#e07b39", "#a389c9"]
                     },
 
-                    "legend":{ "title": null, "orient": "right"m "labelLimit":200}
+                    "legend":{ "title": null, "orient": "right", "labelLimit":200}
                 },
                 "tooltip": [
                 {"field": "state_name", "type": "nominal", "title": "State"},
@@ -100,22 +104,27 @@
                     "fontSize": 11,
                     "fontWeight": "bold"
                 },
+                "encoding": {
 
+                    "x": {"field": "x_mid", "type": "quantitative"},
+                    "y": {"value": 0},
+                    "text":{"field": "state"}
+                }
+            },
+
+            {
+                
+                "transform": [{"filter": "datum.household_type == 'Lone person' && datum.x1 - datum.x0 > 6"}],
+                "mark": {"type": "text", "fontSize": 10, "color": "white"},
                 "encoding": {
                     "x":  {"field": "x_mid", "type": "quantitative"},
                     "y": {"field": "y_mid", "type": "quantitative"},
                     "text": {"field": "pct_of_state", "type": "quantitative", "format": ".0f"}
                 }
             }
-
-        }
         
     ],
 
     "config": {"view": {"stroke": null}}
-
-
-
-
 
 }
