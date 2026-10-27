@@ -3,7 +3,7 @@
   "title": {
     "text": "The household mix in each state",
     "subtitle": [
-      "Column width = state's share of all households; column height = mix of household types, 2021 Census Data",
+      "Column width = the state's share of all households; column height = mix of household types, 2021 Census Data",
       "The three narrow columns on the right are Tas, NT and ACT"
     ],
     "anchor": "start"
@@ -52,7 +52,53 @@
     "height": 320,
     "layer": [
 
-        
+        {
+
+            "mark":{"type": "rect", "stroke": "white", "strokeWidth": 1},
+            "encoding":{
+
+                "x": {"field": "x0", "type": "quantitative", "scale": "domain":[0,100], "axis": null},
+                "x2": {"field": "x1"},
+                "y":{
+
+                    "field":"y0",
+                    "type": "quantitative",
+                    "scale":{
+                        "domain": [0,100]
+                    },
+                    "title": "% of state households",
+                    "axis": {
+                        "domain": false,
+                        "ticks": false
+                    },
+
+                "y2": {"fields": "y1"},
+                "color": {
+                    "field": "household_type",
+                    "type": "nominal",
+                    "scale": {
+                         "domain": ["Couple without children", "Couple with children", "One-parent family", "Other family", "Lone person", "Group household"],
+                         "range": ["#1f4e79", "#5b8fc7", "#9cc3e6", "#c9dcec", "#e07b39", "#a389c9"]
+                    },
+
+                    "legend":{ "title": null, "orient": "right"m "labelLimit":200}
+                },
+                "tooltip": [
+                {"field": "state_name", "type": "nominal", "title": "State"},
+                {"field": "household_type", "type": "nominal", "title": "Household type"},
+                {"field": "pct_of_state", "type": "quantitative", "title": "% of state's households", "format": ".1f"},
+                {"field": "households", "type": "quantitative", "title": "Households", "format": ","}
+                ]
+                }
+
+
+
+            },
+
+            
+        }
+
+
     ]
 
 
