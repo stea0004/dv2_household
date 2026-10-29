@@ -17,7 +17,8 @@
             {"filter": "datum.census_year == 2006 || datum.census_year == 2021"}
         ],
 
-        "width": 400,
+        "width": "container",
+        "autosize": {"type": "fit", "contains": "padding"},
         "height": 300,
         "encoding": {
             "y": {

@@ -11,7 +11,8 @@
     "transform": [
         {"filter": "datum.band_order <=17"}
     ],
-    "width":520,
+    "width": "container",
+    "autosize": {"type": "fit", "contains": "padding"},
     "height":280,
     "encoding":{
         "x":{
@@ -39,7 +40,7 @@
             "field": "household_class",
             "type": "nominal",
             "scale": {
-                "domain": ["Family", "Non-family"], "range": ["#5b8fc7", "#e07b39"]},
+                "domain": ["Family", "Non-family"], "range": ["#5b8fc7", "#08396b"]},
                 "legend": {
                     "title": null,
                     "orient": "top",
@@ -69,7 +70,7 @@
             },
 
             {
-                "transform": [{"filter": "datum.household_class == 'Non-family' && datum.income_band == '$400-$499'"}],
+                "transform": [{"filter": "datum.household_class == 'Non-family' && datum.income_band == '$400–$499'"}],
                 "mark": {
                     "type": "text", "align": "left", "dx": 10, "dy": 0, "fontSize": 11, "fontStyle": "italic"
                 },

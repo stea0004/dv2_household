@@ -3,70 +3,222 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Household Dwelling Heatmap</title>
+        <title>How Australian Households Are Changing</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+
+        <header class="hero">
+            <div class="wrap">
+                <p class="kicker"> FIT3179 DV2 : HOUSEHOLD COMPOSITION IN AUSTRALIA</p>
+                <h1> How Households Changed Over Time</h1>
+                <p class="lede"> In one in four Australian homes, just one person occupy a household.</p>
+            </div>
+        </header>
+
+
+        <main class="wrap">
+
+
+            <!--key stats-->
+
+            <section class=" stats">
+
+                <div class="stat"><span class="num">2.37 million</span><span class="label"> lone-person households in 2021</span></div>
+                <div class="stat"><span class="num">25.6%</span><span class="label"> of all households have only one person living</span></div>
+                <div class="stat"><span class="num">60%</span><span class="label"> of households have one or two people living</span></div>
+
+        
+            
+            </section>
+
+
+            <!--section 1-->
+            <section>
+
+                <h2>
+                    1. What Australian Households Look Like
+                </h2>
+
+                <p class=" intro">
+                    From the Census Data, it can be observed that Couples with or 
+                    without children, still make up most homes in Australia. But lone-person households 
+                    are now almost as common as couples without children, and for one and two-person homes together 
+                    account for six in every ten households.
+                </p>
+
+                <div class=" grid-2">
+
+                    <div class="card">
+                        <div id ="waffle_hh_types" class="chart"></div>
+                    </div>
+                    <div class="card"><div id="bar_household_size" class="chart"></div></div>
+                </div>
+            </section>
+
+            <!--section 2 -->
+
+
+            <section>
+                <h2> 2. Who Is Living Alone</h2>
+                <p class="intro">
+                    Living alone is common in later life, although the share of older Australians living alone has fallen since 2006.
+                </p>
+                <div class="card">
+                    <div class="card">
+                        <div id="dumbbell_living_alone_age" class="chart"></div>
+                    </div>
+                </div>
+                    <div class="card">
+                    <div id="butterfly_women_living_alone" class="chart"></div>
+                    <div class="card note">
+                        <h4>
+                            For people aged 80 to 84, it had dropped from 36% to 30%, where among the very old, women are most likely to be the one's living alone where at 85 and over, 25% of
+                            women are living alone compared to 9% of men.
+                        </h4>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--section 3-->
+
+            <section>
+
+                <h2>3. Where People Are Living Alone</h2>
+
+                <p class="intro">Start with the states. Each column below is one state: the wider the column, the more households it has, and the coloured blocks show its mix of household types. 
+                    The mix looks broadly similar everywhere, but Tasmania (29%) and South Australia (28.5%) 
+                    have the largest share of lone-person households (orange) and the smallest share of couples with children.</p>
+                <div class="card wide"><div id="marimekko_state" class="chart"></div></div>
+                <p class="caption">How to read this chart: column width shows each state's share of all Australian households, so NSW and Victoria are widest. 
+                    Column height always adds to 100%, so blocks can be compared across states. 
+                    Hover over any block for exact figures, including the three narrow columns (Tas, NT and ACT).</p>
+
+                <p class="intro"> 
+                    Across the states of Australia, the household mix is generally similar, but Tasmania (29%) and South Australia (28.5%) have the highest share of lone-person households and the fewest couple with children.
+                </p>
+
+                <div class="grid-2">
+                    <div class="card">
+                        <div id="boxplot_lone_everystate" class="chart"></div>
+                    </div>
+                    <div class="card note">
+                        <h3>
+                            Reading The Boxplot 
+                        </h3>
+                        <p>
+                            Each box shows the middle half of a state's statistical area 2 (SA2), where the white line is the median area. Dots are unusual areas where far more homes than usual have just one person, where in some cases, 
+                            more than half.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card"><div id="choropleth_sa2" class="chart"></div></div>
+                    <div class="card"><div id="symbol_sa2" class="chart"></div></div>
+                </div>
+
+
+                <p class="intro">Living alone and apartment living go together. In SA2s where few households live in flats or apartments, the typical share of lone-person households is 21%; where apartments are most common, it is 28%. The darkest blue areas on the map below have both: many people living alone and many apartments.</p>
+                <div class="card wide"><div id="bivariate_sa2" class="chart"></div></div>
+                <p class="caption">Living alone is "low" below 21% and "high" above 29% of households; apartments are "low" below 1% and "high" above 7% of households. Grey areas have fewer than 100 households, too few to report reliably.</p>
+
+                
+            </section>
+
+
+            <!--section 4-->
+
+            <section>
+
+                <h2>4. Homes and Incomes</h2>
+                <p class="intro">From the Census data, people living alone are far less likely to live in a separate house (55%), compared to the 86% of couples with children,
+                    and the one in four that live in a flat or an apartment. On the income scale, one income non-family households also sit lower on the income scale, sitting at arounf $400-$499 a week.
+                </p>
+                <div class="card wide"><div id="heatmap_dwelling" class="chart"></div></div>
+                <div class="card wide"><div id="line_household_class" class="chart"></div></div>
+                <p class="caption">Given that the family line rises at $4000 or more, the top band has no upper limit and looks over every high income household.</p>
+
+            </section>
+
+
+
+            <!-- conlcusion section-->
+
+            <section class="conclusion">
+
+        
+
+                <h2>What This Means</h2>
+                <p>
+                    From this, we can conclude that couples with children are still the single largest household type, but now accounts for fewer than one in three homes. Small households are
+                    still considered the nrom as six in ten have one or two people living in them. Living alone is the most common among older women in Australia with areas with many apartments. 
+                    As the population of Australia ages, planning for housing and aged care and support services alike will be considered increasingly for the people who live alone.
+        
+                </p>
+            </section>
+        
+        </main>
+
+
+        <!--footer -->
+
+          <footer>
+            <div class="wrap">
+                <p><strong>Sources:</strong>
+                Australian Bureau of Statistics, <a href="https://www.abs.gov.au/census/find-census-data/datapacks">2021 Census General Community Profile DataPacks</a> (tables G33, G35, G42);
+                ABS, <a href="https://www.abs.gov.au/statistics/people/population/household-and-family-projections-australia">Household and Family Projections, Australia, 2021–2046</a> (living arrangement propensities, 2006–2021 Census);
+                ABS, <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3">Australian Statistical Geography Standard (ASGS) Edition 3</a> SA2 boundaries.</p>
+            <p><strong>Author:</strong> Steven Tea · <strong>Date:</strong> October 2026 · FIT3179 Data Vis, Monash University</p>
+            <p><strong>NOTES:</strong> </p>
+            </div>
+        </footer>
+
+
+
+
+        <!--charts-->
         <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    </head>
-    <body>
-
-
-        <div id= "heatmap_dwelling"></div>
-
         <script>
-        vegaEmbed("#heatmap_dwelling", "specs/chart1_heatmap_dwelling_hh.vl.json", { actions: false })
-            .catch(console.error);
-        </script>
+        const opts = {
+            actions: false,
+            config: {
+                font: "Source Sans 3",
+                title: { fontSize: 15, subtitleFontSize: 12, subtitleColor: "#555555", color: "#1b2a3a" },
+                axis: { labelFontSize: 11, titleFontSize: 12, labelColor: "#444444", titleColor: "#333333" },
+                legend: { labelFontSize: 11, titleFontSize: 12 }
 
-        <div id= "waffle_hh_types"></div>
-        <script>
-        vegaEmbed("#waffle_hh_types", "specs/chart2_waffle_hh_types.vl.json", { actions: false })
-            .catch(console.error);
-        </script>
+            }
+        };
 
-        <div id= "dumbbell_living_alone_age"></div>
-        <script>
-        vegaEmbed("#dumbbell_living_alone_age", "specs/chart3_dumbbell_living_alone_age.vl.json", { actions: false })
-            .catch(console.error);
-        </script>
+        const charts = {
 
-        <div id="butterfly_women_living_alone"></div>
-        <script>
-        vegaEmbed("#butterfly_women_living_alone", "specs/chart4_butterfly_women_la.vl.json", { actions: false })
-            .catch(console.error);
-        </script>
+            "#waffle_hh_types": "specs/chart2_waffle_hh_types.vl.json",
+            "#bar_household_size": "specs/chart5_bar_hh_size.vl.json",
+            "#dumbbell_living_alone_age": "specs/chart3_dumbbell_living_alone_age.vl.json",
+            "#butterfly_women_living_alone": "specs/chart4_butterfly_women_la.vl.json",
+            "#marimekko_state": "specs/chart8_marimekko_state_type.vl.json",
+            "#boxplot_lone_everystate": "specs/chart7_boxplot_lone_everystate.vl.json",
+            "#choropleth_sa2": "specs/chart9_choropleth_lone_sa2.vl.json",
+            "#symbol_sa2": "specs/chart10_symbol_lone_sa2.vl.json", 
+            "#bivariate_sa2": "specs/chart11_bivariate_lone_apartment.vl.json", 
+            "#heatmap_dwelling": "specs/chart1_heatmap_dwelling_hh.vl.json",
+            "#line_household_class": "specs/chart6_line_hh_class.vl.json"
 
-        <div id="line_household_class"></div>
-        <script>
-            vegaEmbed("#line_household_class", "specs/chart6_line_hh_class.vl.json", { actions: false})
-                .catch(console.error);
+        };
+            for (const [el, spec] of Object.entries(charts)) {
+                vegaEmbed(el, spec, opts).catch(console.error)
+            }
         </script>
-        
-        <div id="bar_household_size"></div>
-        <script>
-            vegaEmbed("#bar_household_size", "specs/chart5_bar_hh_size.vl.json", { actions: false})
-                .catch(console.error);
-        </script>
-
-        <div id="boxplot_lone_everystate"></div>
-        <script>
-            vegaEmbed("#boxplot_lone_everystate", "specs/chart7_boxplot_lone_everystate.vl.json", { actions: false})
-                .catch(console.error);
-        </script>
-
-        <div id="marimekko_state"></div>
-        <script>
-           vegaEmbed("#marimekko_state", "specs/chart8_marimekko_state_type.vl.json", { actions: false})
-                .catch(console.error); 
-        </script>
-
-
-        <div id="choropleth_sa2"></div>
-                <script>
-                vegaEmbed("#choropleth_sa2", "specs/chart9_choropleth_lone_sa2.vl.json", { actions: false})
-                        .catch(console.error); 
-        </script>
-
 
     </body>
 </html>

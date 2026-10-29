@@ -8,7 +8,8 @@
         },
 
         "data": {"url": "data/sa2_households.csv", "format": {"parse": {"sa2_code": "string"}}},
-        "width": 420,
+        "width": "container",
+        "autosize": {"type": "fit", "contains": "padding"},
         "height": 300, 
         "layer":[
             
@@ -17,7 +18,7 @@
                 "type": "boxplot",
                 "extent": 1.5,
                 "size": 26, 
-                "color": "#e07b39",
+                "color": "#08519c",
                 "median": {
                     "color": "white", 
                     "strokeWidth": 2

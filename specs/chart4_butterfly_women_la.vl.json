@@ -15,7 +15,8 @@
         {"calculate": "datum.gender == 'Women' ? -datum.pct : datum.pct", "as": "signed_pct"}
     ],
 
-    "width": 400,
+    "width": "container",
+    "autosize": {"type": "fit", "contains": "padding"},
     "height": 300,
     "encoding": {
         "y": {
@@ -50,7 +51,7 @@
                    
                         "field": "gender",
                         "type": "nominal",
-                        "scale": {"domain": ["Women", "Men"], "range": ["#b5577a", "#4a7c8c"]},
+                        "scale": {"domain": ["Women", "Men"], "range": ["#08519c", "#9ecae1"]},
                         "legend": null
                     },
 

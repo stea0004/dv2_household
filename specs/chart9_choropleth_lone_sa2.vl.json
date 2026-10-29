@@ -58,7 +58,7 @@
                 "field": "lone_pct",
                 "type": "quantitative",
                 "title": "% lone-person households",
-                "scale": {"scheme": "oranges", "domain": [10,45], "clamp": true},
+                "scale": {"scheme": "tealblues", "domain": [10,45], "clamp": true},
                 "legend": {"orient": "bottom", "direction": "horizontal", "gradientLength": 220, "titleLimit": 300}
             },
             "tooltip": [

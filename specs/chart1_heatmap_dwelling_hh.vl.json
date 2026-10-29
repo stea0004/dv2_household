@@ -25,7 +25,8 @@
         }
     ],
 
-    "width": 400,
+    "width": "container",
+    "autosize": {"type": "fit", "contains": "padding"},
     "height": 300,
     "encoding": {
         "x": {

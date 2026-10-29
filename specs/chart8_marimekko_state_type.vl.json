@@ -82,7 +82,7 @@
                     "type": "nominal",
                     "scale": {
                          "domain": ["Couple without children", "Couple with children", "One-parent family", "Other family", "Lone person", "Group household"],
-                         "range": ["#1f4e79", "#5b8fc7", "#9cc3e6", "#c9dcec", "#e07b39", "#a389c9"]
+                         "range": ["#6baed6", "#2171b5", "#9ecae1", "#deebf7", "#08306b", "#c6dbef"]
                     },
 
                     "legend":{ "title": null, "orient": "right", "labelLimit":200}

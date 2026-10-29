@@ -2,14 +2,15 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Most households contain one or two people",
-    "subtitle": "Households by number of usual residents, 2021 Census",
+    "subtitle": ["Households by number of usual residents", "2021 Census"],
     "anchor": "start"
 
 },
 
 "data": {"url":"data/household_size_aus.csv"},
-"width": 420,
-"height": 280,
+"width": "container",
+"autosize": {"type": "fit", "contains": "padding"},
+"height": 380,
 "encoding": {
     "x": {
         "field":"household_size",
@@ -19,7 +20,8 @@
         "axis": {
             "labelAngle": 0,
             "domain": false,
-            "ticks": false
+            "ticks": false,
+            "labelExpr": "datum.label == '6 or more' ? '6+' : split(datum.label, ' ')[0]"
         }
     }
 },
@@ -42,7 +44,7 @@
             "color":{
                 "field": "household_class",
                 "type": "nominal",
-                "scale": {"domain": ["Family", "Non-family"], "range": ["#5b8fc7","#e07b39"]},
+                "scale": {"domain": ["Family", "Non-family"], "range": ["#5b8fc7","#08306b"]},
                 "legend": {
                     "title": null,
                     "orient": "top",
